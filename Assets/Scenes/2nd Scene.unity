@@ -147,7 +147,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Concert: {fileID: 741569430}
   Speed: 2
-  JumpForce: 500
+  JumpForce: 250
 --- !u!50 &377581265
 Rigidbody2D:
   serializedVersion: 4
@@ -265,8 +265,8 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
-  - component: {fileID: 519420030}
   - component: {fileID: 519420033}
+  - component: {fileID: 519420030}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -294,8 +294,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 245b37fc8e2e00a48890a3247e963457, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FollowSpeed: 2
+  SmoothSpeed: 5
   Target: {fileID: 377581268}
+  OffSet: {x: 6.3, y: 3.48, z: -5.28}
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
