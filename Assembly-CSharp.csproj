@@ -63,7 +63,11 @@
     <Compile Include="Assets\Obstacle.cs" />
     <Compile Include="Assets\Scripts\CameraLookAT.cs" />
     <Compile Include="Assets\Scripts\Manager.cs" />
+<<<<<<< HEAD
     <Compile Include="Assets\Scripts\MusicalNote.cs" />
+=======
+    <Compile Include="Assets\Scripts\MusicDelay.cs" />
+>>>>>>> master
     <Compile Include="Assets\Scripts\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\PlayerMOvement.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">

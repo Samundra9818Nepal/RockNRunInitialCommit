@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 548}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -42,8 +42,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
+<<<<<<< HEAD
     width: 2545
     height: 1293
+=======
+    width: 2560
+    height: 1307
+>>>>>>> master
   m_MinSize: {x: 679, y: 498}
   m_MaxSize: {x: 14002, y: 14048}
   vertical: 0
@@ -65,8 +70,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2029
     y: 0
+<<<<<<< HEAD
     width: 516
     height: 1293
+=======
+    width: 519
+    height: 1307
+>>>>>>> master
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
@@ -147,9 +157,15 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 2545
     height: 1343
   m_MinSize: {x: 950, y: 300}
+=======
+    width: 2560
+    height: 1357
+  m_MinSize: {x: 950, y: 548}
+>>>>>>> master
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &7
 MonoBehaviour:
@@ -213,12 +229,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 2029
     height: 1293
   m_MinSize: {x: 404, y: 498}
   m_MaxSize: {x: 10002, y: 14048}
   vertical: 1
   controlID: 50
+=======
+    width: 2041
+    height: 1307
+  m_MinSize: {x: 404, y: 498}
+  m_MaxSize: {x: 10002, y: 14048}
+  vertical: 1
+  controlID: 13
+>>>>>>> master
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -238,12 +263,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 2029
     height: 781
   m_MinSize: {x: 404, y: 224}
   m_MaxSize: {x: 8004, y: 4024}
   vertical: 0
   controlID: 51
+=======
+    width: 2041
+    height: 789
+  m_MinSize: {x: 404, y: 224}
+  m_MaxSize: {x: 8004, y: 4024}
+  vertical: 0
+  controlID: 14
+>>>>>>> master
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -261,10 +295,17 @@ MonoBehaviour:
     serializedVersion: 2
     x: 502
     y: 0
+<<<<<<< HEAD
     width: 1527
     height: 781
   m_MinSize: {x: 204, y: 224}
   m_MaxSize: {x: 4004, y: 4024}
+=======
+    width: 1536
+    height: 789
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+>>>>>>> master
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -296,7 +337,7 @@ MonoBehaviour:
     x: 505.33334
     y: 72.66667
     width: 1532
-    height: 770
+    height: 769
   m_PersistentViewDataDictionary: {fileID: 0}
 --- !u!114 &13
 MonoBehaviour:
@@ -336,19 +377,24 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\berickson2\Desktop\RockNRunInitialCommit
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
     m_SelectedIDs: d22b0000
     m_LastClickedID: 11218
+=======
+    m_SelectedIDs: 842c0000
+    m_LastClickedID: 11396
+>>>>>>> master
     m_ExpandedIDs: 00000000d22b000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -498,7 +544,11 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
+<<<<<<< HEAD
       m_ExpandedIDs: 6efaffff76faffff1efbffff
+=======
+      m_ExpandedIDs: 72faffff1efbffff
+>>>>>>> master
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -553,9 +603,15 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: -85.50679, y: 21.813011, z: -5.9280787}
     speed: 2
     m_Value: {x: -85.50679, y: 21.813011, z: -5.9280787}
+=======
+    m_Target: {x: -152.99768, y: 8.7037325, z: -10.078125}
+    speed: 2
+    m_Value: {x: -152.99768, y: 8.7037325, z: -10.078125}
+>>>>>>> master
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -587,9 +643,15 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: -1}
   m_Size:
+<<<<<<< HEAD
     m_Target: 86.36954
     speed: 2
     m_Value: 86.36954
+=======
+    m_Target: 53.554554
+    speed: 2
+    m_Value: 53.554554
+>>>>>>> master
   m_Ortho:
     m_Target: 1
     speed: 2
