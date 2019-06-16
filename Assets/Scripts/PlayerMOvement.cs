@@ -32,7 +32,7 @@ public class PlayerMOvement : MonoBehaviour
     // making player jump using J Key. 
     public void Jump ()
     {
-        if(Input.GetKeyDown(KeyCode.J)&& IsGrounded)
+        if(Input.GetKeyDown(KeyCode.Space)&& IsGrounded)
         {
             this.gameObject.GetComponent<Rigidbody2D>().AddForce(Vector2.up * JumpForce);
             IsGrounded = false;
