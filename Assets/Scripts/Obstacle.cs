@@ -34,7 +34,7 @@ public class Obstacle : MonoBehaviour
     }
 
     // Stops animation after player extit the trigger box
-.
+
     public void OnTriggerExit2D(Collider2D collision)
     {
 

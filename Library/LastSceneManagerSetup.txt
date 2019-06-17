@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< Updated upstream
 - path: Assets/Scenes/Rock 1.unity
-=======
-- path: Assets/Scenes/LevelSelect.unity
->>>>>>> Stashed changes
   isLoaded: 1
   isActive: 1

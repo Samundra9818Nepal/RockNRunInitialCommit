@@ -146,7 +146,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Concert: {fileID: 741569430}
-  Speed: 2
+  Speed: 7
   JumpForce: 1000
 --- !u!50 &377581265
 Rigidbody2D:
@@ -483,6 +483,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd53ea84f51a79449a1f70440ae8f208, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Playertrip: {fileID: 0}
 --- !u!212 &1257998533
 SpriteRenderer:
   m_ObjectHideFlags: 0
