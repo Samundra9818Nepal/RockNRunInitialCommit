@@ -4,20 +4,50 @@ using UnityEngine;
 
 public class Obstacle : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public Animator Playertrip;
+
+
     void Start()
     {
-        
+
+        Playertrip = GetComponent<Animator>();
     }
 
-    // Update is called once per frame
-    void Update()
+
+    public void OnTriggerEnter2D(Collider2D collision)
     {
-        
+
+
+
+        // play animation to make player trip
+
+        if (collision.gameObject.tag == "Enemy")
+        {
+
+            Playertrip.SetBool("Trip", true);
+
+
+
+        }
+
+
     }
-    public void OnCollisionEnter2D(Collision2D collision)
+
+    // Stops animation after player extit the trigger box
+.
+    public void OnTriggerExit2D(Collider2D collision)
     {
-        //play animation to make player trip
-        //play bad sound
+
+
+        if (collision.gameObject.tag == "Enemy")
+        {
+
+            Playertrip.SetBool("Trip", false);
+
+
+
+        }
+
+
     }
 }
