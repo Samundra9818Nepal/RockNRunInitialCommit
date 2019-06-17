@@ -1,13 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class MusicalNote : MonoBehaviour
+public class SplashTransition : MonoBehaviour
 {
+    public int timer = 2;
     // Start is called before the first frame update
     void Start()
     {
-        
+        if (timer >= 0)
+        {
+            SceneManager.LoadScene("MainMenu",LoadSceneMode.Single);
+        }
     }
 
     // Update is called once per frame
@@ -15,9 +20,8 @@ public class MusicalNote : MonoBehaviour
     {
         
     }
-    public void OnCollisionEnter2D(Collision2D collision)
+    public void Timer()
     {
-        //play music slighlty louder or a positive sound
-        //destroy this object
+
     }
 }
