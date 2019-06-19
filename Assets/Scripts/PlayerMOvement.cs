@@ -31,20 +31,26 @@ public class PlayerMOvement : MonoBehaviour
         RB.velocity = new Vector2(Speed, RB.velocity.y);
       //  transform.position = Vector2.MoveTowards(transform.position, Concert.transform.position, Speed * Time.deltaTime);
 
-        Jump();
+    
     }
 
     // making player jump using J Key. 
-    public void Jump ()
-    {
-        if(Input.GetKeyDown(KeyCode.Space)&& IsGrounded)
-        {
-            RB.velocity = new Vector2(RB.velocity.x,JumpForce);
 
-           // this.gameObject.GetComponent<Rigidbody2D>().AddForce(Vector2.up * JumpForce);
+
+    public void Update()
+    {
+
+        if (Input.GetKeyDown(KeyCode.Space) && IsGrounded)
+        {
+
+            RB.velocity = new Vector2(RB.velocity.x, JumpForce);
+
+            // this.gameObject.GetComponent<Rigidbody2D>().AddForce(Vector2.up * JumpForce);
             IsGrounded = false;
         }
+
     }
+   
 
     // Cheking that player has collide with the ground or not.
     private void OnCollisionEnter2D(Collision2D collision)

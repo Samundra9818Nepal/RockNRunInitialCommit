@@ -1329,7 +1329,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Concert: {fileID: 741569430}
   Speed: 7
-  JumpForce: 20
+  JumpForce: 25
 --- !u!50 &377581265
 Rigidbody2D:
   serializedVersion: 4
@@ -1444,7 +1444,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 377581263}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 11b0cf8661722124d97974bd0acf5a2b, type: 2}
   m_CullingMode: 0
