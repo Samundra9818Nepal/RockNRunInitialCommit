@@ -11,7 +11,7 @@ public class CameraLookAT : MonoBehaviour
 
 
     // camera follows the player.
-    private void Update()
+    private void FixedUpdate()
     {
         Vector3 newPosition = Target.position + OffSet;
         Vector3 SmoothPosition = Vector3.Lerp(transform.position, newPosition, SmoothSpeed * Time.deltaTime);

@@ -4,15 +4,7 @@ using UnityEngine;
 
 public class MusicDelay : MonoBehaviour
 {
-
-
     AudioSource MyAudio;
-
-
-
-
-
-
 
     // Playing the Audio after 3 seconds.
     private void Start()
