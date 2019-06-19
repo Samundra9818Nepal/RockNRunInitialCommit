@@ -12,19 +12,24 @@ public class PlayerMOvement : MonoBehaviour
     bool IsGrounded; // For Checking if the player Grounded.
 
 
+    Rigidbody2D RB;
 
 
     public void Start()
     {
+
+      
         // Making sure that player is grounded.
         IsGrounded = true;
+        RB = GetComponent<Rigidbody2D>();
     }
 
     // moving player towards the concert gameobject position.
-    public void Update()
+    public void FixedUpdate()
     {
 
-        transform.position = Vector2.MoveTowards(transform.position, Concert.transform.position, Speed * Time.deltaTime);
+        RB.velocity = new Vector2(Speed, RB.velocity.y);
+      //  transform.position = Vector2.MoveTowards(transform.position, Concert.transform.position, Speed * Time.deltaTime);
 
         Jump();
     }
