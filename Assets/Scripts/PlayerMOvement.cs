@@ -6,8 +6,8 @@ public class PlayerMOvement : MonoBehaviour
 {
 
     public GameObject Concert; // Refrencing the object that player need to reach.
-    public float Speed = 10f;
-    public float JumpForce = 10f;
+    public float Speed;
+    public float JumpForce;
 
     bool IsGrounded; // For Checking if the player Grounded.
 
