@@ -39,7 +39,9 @@ public class PlayerMOvement : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.Space)&& IsGrounded)
         {
-            this.gameObject.GetComponent<Rigidbody2D>().AddForce(Vector2.up * JumpForce);
+            RB.velocity = new Vector2(RB.velocity.x,JumpForce);
+
+           // this.gameObject.GetComponent<Rigidbody2D>().AddForce(Vector2.up * JumpForce);
             IsGrounded = false;
         }
     }
