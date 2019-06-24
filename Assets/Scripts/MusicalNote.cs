@@ -2,22 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class MusicalNote : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public GameObject pickupEffect;
+    public AudioClip pickupSound;
 
-    // Update is called once per frame
-    void Update()
+    public void OnTriggerEnter2D(Collider2D collision)
     {
-        
-    }
-    public void OnCollisionEnter2D(Collision2D collision)
-    {
-        //play music slighlty louder or a positive sound
-        //destroy this object
+        if (collision.gameObject.tag == "Player")
+        {
+            //play music
+            //spawn particle system
+            //add score
+            Destroy(this.gameObject);
+        }
     }
 }
