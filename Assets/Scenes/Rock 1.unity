@@ -231,12 +231,12 @@ PrefabInstance:
     - target: {fileID: 5907832039978726031, guid: e162e8ce55142b440b2a3eaa9932b3ce,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -173.341
+      value: -169.09
       objectReference: {fileID: 0}
     - target: {fileID: 5907832039978726031, guid: e162e8ce55142b440b2a3eaa9932b3ce,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.058
+      value: 0.748
       objectReference: {fileID: 0}
     - target: {fileID: 5907832039978726031, guid: e162e8ce55142b440b2a3eaa9932b3ce,
         type: 3}
@@ -286,17 +286,17 @@ PrefabInstance:
     - target: {fileID: 5907832039978726031, guid: e162e8ce55142b440b2a3eaa9932b3ce,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.32074
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 5907832039978726031, guid: e162e8ce55142b440b2a3eaa9932b3ce,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.32074
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 5907832039978726031, guid: e162e8ce55142b440b2a3eaa9932b3ce,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.32074
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e162e8ce55142b440b2a3eaa9932b3ce, type: 3}
@@ -4991,7 +4991,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Concert: {fileID: 0}
-  Speed: 10
+  Speed: 7.5
   JumpForce: 24
 --- !u!50 &1613009668
 Rigidbody2D:
