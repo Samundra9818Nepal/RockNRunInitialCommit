@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerMOvement : MonoBehaviour
 {
 
-    public GameObject Concert; // Refrencing the object that player need to reach.
+
     public float Speed;
     public float JumpForce;
     Animator Slide;
@@ -68,6 +68,10 @@ public class PlayerMOvement : MonoBehaviour
 
 
             Slide.SetBool("PlayerSliding", false);
+
+            //Slide.SetBool("PlayerReturn", true);
+
+
             Refcol.size = new Vector2(Refcol.size.x, 10f);
         }
 
