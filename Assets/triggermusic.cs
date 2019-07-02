@@ -22,7 +22,6 @@ public class triggermusic : MonoBehaviour
         //play music
         if (other.gameObject.tag == "Player")
         {
-            Debug.Log("poo");
             MyAudio = GetComponent<AudioSource>();
             MyAudio.Play();
         }
