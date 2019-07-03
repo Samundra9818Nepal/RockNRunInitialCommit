@@ -7,15 +7,22 @@ public class CameraLookAT : MonoBehaviour
 
 
 
-    public float SmoothSpeed = 2f;
+    private float SmoothSpeed = 8f;
     public Transform Target; // player to follow
-    public Vector3 OffSet;
+    private Vector3 OffSet;
 
+    private void Start()
+    {
+        
+
+        SmoothSpeed = 8f;
+    }
 
 
     // camera follows the player.
     private void FixedUpdate()
     {
+        Vector3 OffSet = new Vector3(6.3f, 1.5f, -5.3f);
         Vector3 newPosition = Target.position + OffSet;
         Vector3 SmoothPosition = Vector3.Lerp(transform.position, newPosition, SmoothSpeed * Time.deltaTime);
         transform.position = SmoothPosition;
