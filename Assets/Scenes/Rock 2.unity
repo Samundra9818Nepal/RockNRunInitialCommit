@@ -3791,7 +3791,7 @@ Skybox:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
-  m_CustomSkybox: {fileID: 2100000, guid: 71f14a2d79f732f4d9893ef1b911f4ff, type: 2}
+  m_CustomSkybox: {fileID: 2100000, guid: f6623596f6b6c264085d0cbfc8f76d2c, type: 2}
 --- !u!1 &558154020
 GameObject:
   m_ObjectHideFlags: 0
@@ -10732,7 +10732,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5a153e461528834a9646aee192d9769, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Concert: {fileID: 0}
   Speed: 7.5
   JumpForce: 25
 --- !u!70 &1652713032
@@ -10807,7 +10806,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: e01cfca9e2d9710458dd5114f16de983, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 02051fddded4e544ebe62736233e7fff, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

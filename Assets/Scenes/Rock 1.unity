@@ -313,6 +313,12 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5907832039978726030, guid: e162e8ce55142b440b2a3eaa9932b3ce,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 02051fddded4e544ebe62736233e7fff,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e162e8ce55142b440b2a3eaa9932b3ce, type: 3}
 --- !u!1 &58125150
@@ -2829,7 +2835,7 @@ Camera:
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 2
+  m_ClearFlags: 1
   m_BackGroundColor: {r: 0.6698113, g: 0.6698113, b: 0.6698113, a: 0}
   m_projectionMatrixMode: 1
   m_SensorSize: {x: 36, y: 24}
@@ -2884,7 +2890,7 @@ Skybox:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
-  m_CustomSkybox: {fileID: 2100000, guid: 4067de1a02072244798361060c5e7325, type: 2}
+  m_CustomSkybox: {fileID: 2100000, guid: f6623596f6b6c264085d0cbfc8f76d2c, type: 2}
 --- !u!1 &534282058
 GameObject:
   m_ObjectHideFlags: 0
@@ -8087,7 +8093,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5a153e461528834a9646aee192d9769, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Concert: {fileID: 0}
   Speed: 7.5
   JumpForce: 24
 --- !u!50 &1613009668
