@@ -16779,7 +16779,7 @@ Skybox:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1327279447}
   m_Enabled: 1
-  m_CustomSkybox: {fileID: 2100000, guid: 71f14a2d79f732f4d9893ef1b911f4ff, type: 2}
+  m_CustomSkybox: {fileID: 2100000, guid: 70e6e948ac4cf2b40a1e12ca9222e81e, type: 2}
 --- !u!81 &1327279450
 AudioListener:
   m_ObjectHideFlags: 0
@@ -27328,6 +27328,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 6efd759109f8c1a4c9ceaff9334c02e7, type: 3}
+      objectReference: {fileID: 8300000, guid: c6119a532db6e154f8fb3b37762e8561, type: 3}
+    - target: {fileID: 7465876298761090320, guid: c18c5ab10f5e468408062f4b65fd8780,
+        type: 3}
+      propertyPath: MaxDistance
+      value: 2.2367554
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c18c5ab10f5e468408062f4b65fd8780, type: 3}
