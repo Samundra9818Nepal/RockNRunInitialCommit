@@ -19,8 +19,6 @@ public class PlayerMOvement : MonoBehaviour
 
     public void Start()
     {
-
-      
         // Making sure that player is grounded.
         IsGrounded = true;
         RB = GetComponent<Rigidbody2D>();
@@ -28,21 +26,17 @@ public class PlayerMOvement : MonoBehaviour
         Refcol = GetComponent<CapsuleCollider2D>();
     }
 
-    // moving player towards the concert gameobject position.
+    //Moving player towards the concert gameobject position.
     public void FixedUpdate()
     {
-
         RB.velocity = new Vector2(Speed, RB.velocity.y);
-      //  transform.position = Vector2.MoveTowards(transform.position, Concert.transform.position, Speed * Time.deltaTime);
-
-    
+        //transform.position = Vector2.MoveTowards(transform.position, Concert.transform.position, Speed * Time.deltaTime);
     }
 
   
 
     public void Update()
     {
-
         if (Input.GetKeyDown(KeyCode.Space) && IsGrounded)
         {
 
@@ -51,13 +45,9 @@ public class PlayerMOvement : MonoBehaviour
             // this.gameObject.GetComponent<Rigidbody2D>().AddForce(Vector2.up * JumpForce);
             IsGrounded = false;
         }
-
-
-
         // this function is for sliding the player by pressing C.
         if(Input.GetKeyDown("c"))
         {
-
 
             Slide.SetBool("PlayerSliding", true);
             Refcol.size = new Vector2(Refcol.size.x, 7f);
@@ -74,11 +64,6 @@ public class PlayerMOvement : MonoBehaviour
 
             Refcol.size = new Vector2(Refcol.size.x, 10f);
         }
-
-
-
-
-        
     }
 
 
