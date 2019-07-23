@@ -73,7 +73,11 @@
     <Compile Include="Assets\Scripts\SplashTransition.cs" />
     <Compile Include="Assets\triggermusic.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
+<<<<<<< HEAD
       <HintPath>C:/Users/ktiwari3/Desktop/RockNRunInitialCommit/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+=======
+      <HintPath>C:/Users/snepal2/Desktop/RockNRunInitialCommit/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+>>>>>>> master
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
       <HintPath>C:/Users/ktiwari3/Desktop/RockNRunInitialCommit/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
@@ -85,7 +89,11 @@
       <HintPath>C:/Users/ktiwari3/Desktop/RockNRunInitialCommit/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
+<<<<<<< HEAD
       <HintPath>C:/Users/ktiwari3/Desktop/RockNRunInitialCommit/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+=======
+      <HintPath>C:/Users/snepal2/Desktop/RockNRunInitialCommit/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+>>>>>>> master
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -292,13 +300,21 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.8f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
+<<<<<<< HEAD
       <HintPath>C:/Users/ktiwari3/Desktop/RockNRunInitialCommit/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+=======
+      <HintPath>C:/Users/snepal2/Desktop/RockNRunInitialCommit/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+>>>>>>> master
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
       <HintPath>C:/Users/ktiwari3/Desktop/RockNRunInitialCommit/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
+<<<<<<< HEAD
       <HintPath>C:/Users/ktiwari3/Desktop/RockNRunInitialCommit/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+=======
+      <HintPath>C:/Users/snepal2/Desktop/RockNRunInitialCommit/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+>>>>>>> master
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.8f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
