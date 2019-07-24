@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Ground
   - Enemy
+  - Rock
+  - obstacles
+  - Collectables
   layers:
   - Default
   - TransparentFX

@@ -5,10 +5,10 @@ using UnityEngine;
 public class PlayerMOvement : MonoBehaviour
 {
 
-
+    public GameObject ParticalPref; // Particle system.
     public float Speed;
     public float JumpForce;
-    Animator Slide;
+    Animator anim;
     CapsuleCollider2D Refcol;
 
     bool IsGrounded; // For Checking if the player Grounded.
@@ -22,7 +22,7 @@ public class PlayerMOvement : MonoBehaviour
         // Making sure that player is grounded.
         IsGrounded = true;
         RB = GetComponent<Rigidbody2D>();
-        Slide = GetComponent<Animator>();
+        anim = GetComponent<Animator>();
         Refcol = GetComponent<CapsuleCollider2D>();
     }
 
@@ -49,7 +49,7 @@ public class PlayerMOvement : MonoBehaviour
         if(Input.GetKeyDown("c"))
         {
 
-            Slide.SetBool("PlayerSliding", true);
+            anim.SetBool("PlayerSliding", true);
             Refcol.size = new Vector2(Refcol.size.x, 7f);
         
             
@@ -57,7 +57,7 @@ public class PlayerMOvement : MonoBehaviour
         {
 
 
-            Slide.SetBool("PlayerSliding", false);
+            anim.SetBool("PlayerSliding", false);
 
             //Slide.SetBool("PlayerReturn", true);
 
@@ -75,9 +75,37 @@ public class PlayerMOvement : MonoBehaviour
         {
             IsGrounded = true;
             Debug.Log("IsGrounded");
+
+        }
+
+
+        // Player Trip over functions.
+        if (collision.gameObject.tag == "obstacles")
+        {
+
+            anim.SetBool("Player Tripover", true);
+            Debug.Log("Player Tripover");
+
+        }
+
+
+
+        if(collision.gameObject.tag == "Collectables")
+        {
+            GameObject Particles = Instantiate(ParticalPref, this.transform.position, this.transform.rotation);
+            Destroy(collision.gameObject);
+            Destroy(Particles, 2f);
+
         }
 
     }
 
+    // Disbaling the PlayerTrip over animation.
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+            anim.SetBool("Player Tripover", false);
+            Debug.Log("Player Tripover");
+    }
 
 }
