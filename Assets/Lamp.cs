@@ -7,16 +7,16 @@ public class Lamp : MonoBehaviour
     public Color colorInitial;
     public Color color2;
     public SpriteRenderer spriteRef;
+    public float timeBet;
     void Start()
     {
         spriteRef = GetComponent<SpriteRenderer>();
-        colorInitial = spriteRef.color;
-        color2 = new Color(0, 170, 255);
+        //colorInitial = spriteRef.color;
     }
 
     // Update is called once per frame
     void Update()
     {
-        spriteRef.color = Color.Lerp(colorInitial, color2, Mathf.PingPong(Time.time,1));
+        spriteRef.color = Color.Lerp(colorInitial, color2, Mathf.PingPong(Time.time,timeBet));
     }
 }
