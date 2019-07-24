@@ -15,11 +15,23 @@ public class MusicDelay : MonoBehaviour
 
 
         // Play audio after 3 seconds.
-        MyAudio.PlayDelayed(3.0f);
+      //  MyAudio.PlayDelayed(3.0f);
 
 
 
 
     }
 
+
+
+    public void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Player")
+        {
+
+            MyAudio.Play();
+
+        }
+
+    }
 }
