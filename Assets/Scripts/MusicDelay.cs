@@ -10,12 +10,12 @@ public class MusicDelay : MonoBehaviour
     private void Start()
     {
 
-        // Refrencing Myaudio with gameobject audioSource.
+       
        MyAudio= GetComponent<AudioSource>();
 
 
-        // Play audio after 3 seconds.
-      //  MyAudio.PlayDelayed(3.0f);
+       // Play audio after 3 seconds.
+       MyAudio.PlayDelayed(3.0f);
 
 
 
@@ -24,7 +24,7 @@ public class MusicDelay : MonoBehaviour
 
 
 
-    public void OnTriggerEnter2D(Collider2D collision)
+   /* public void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Player")
         {
@@ -33,5 +33,5 @@ public class MusicDelay : MonoBehaviour
 
         }
 
-    }
+    }*/
 }
