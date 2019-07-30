@@ -29,7 +29,7 @@ public class PlayerMOvement : MonoBehaviour
         RB = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         Refcol = GetComponent<CapsuleCollider2D>();
-        VolumeDown = GetComponent<AudioSource>();
+        //VolumeDown = GetComponent<AudioSource>();
         
     }
 
