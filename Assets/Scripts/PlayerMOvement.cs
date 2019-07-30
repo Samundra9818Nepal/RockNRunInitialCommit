@@ -12,7 +12,7 @@ public class PlayerMOvement : MonoBehaviour
     //public GameObject CoinPickUpsound;
     public float Speed;
     public float JumpForce;
-    public GameObject Screenflash;
+    //public GameObject Screenflash;
     Animator anim;
     CapsuleCollider2D Refcol;
 
@@ -29,7 +29,7 @@ public class PlayerMOvement : MonoBehaviour
         RB = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         Refcol = GetComponent<CapsuleCollider2D>();
-        VolumeDown = GetComponent<AudioSource>();
+        //VolumeDown = GetComponent<AudioSource>();
         
     }
 
@@ -93,7 +93,7 @@ public class PlayerMOvement : MonoBehaviour
             //VolumeDown.volume = 0f;
             anim.SetBool("Player Tripover", true);
             Debug.Log("Player Tripover");
-            Screenflash.SetActive(true);
+            //Screenflash.SetActive(true);
            //GameObject Bad_sound = Instantiate(Badsound, transform.position, transform.rotation);
            //Destroy(Bad_sound, 3f);
             
@@ -124,7 +124,7 @@ public class PlayerMOvement : MonoBehaviour
     {
         anim.SetBool("Player Tripover", false);
         Debug.Log("Player Tripover");
-        Screenflash.SetActive(false);
+       // Screenflash.SetActive(false);
         //VolumeDown.volume = 1f;
     }
 
