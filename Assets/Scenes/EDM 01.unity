@@ -125,7 +125,7 @@ GameObject:
   - component: {fileID: 9035065}
   m_Layer: 0
   m_Name: Neon Music Symbol (27)
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -231,7 +231,7 @@ GameObject:
   - component: {fileID: 15046511}
   m_Layer: 0
   m_Name: Neon Music Symbol (39)
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -551,7 +551,7 @@ GameObject:
   - component: {fileID: 28476668}
   m_Layer: 0
   m_Name: Neon Music Symbol (14)
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -945,9 +945,10 @@ GameObject:
   - component: {fileID: 47684904}
   - component: {fileID: 47684903}
   - component: {fileID: 47684902}
+  - component: {fileID: 47684905}
   m_Layer: 0
   m_Name: Trigger
-  m_TagString: Ground
+  m_TagString: obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1037,6 +1038,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 47684900}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &47684905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 47684900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12a84b0fbadf7d44f938176d46f51c5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &49577878
 GameObject:
   m_ObjectHideFlags: 0
@@ -1153,9 +1166,10 @@ GameObject:
   - component: {fileID: 50606507}
   - component: {fileID: 50606506}
   - component: {fileID: 50606505}
+  - component: {fileID: 50606508}
   m_Layer: 0
   m_Name: Trigger
-  m_TagString: Ground
+  m_TagString: obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1245,6 +1259,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 50606503}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &50606508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 50606503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12a84b0fbadf7d44f938176d46f51c5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &52895888
 GameObject:
   m_ObjectHideFlags: 0
@@ -1466,7 +1492,7 @@ GameObject:
   - component: {fileID: 62542826}
   m_Layer: 0
   m_Name: Neon Music Symbol (40)
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2310,7 +2336,7 @@ GameObject:
   - component: {fileID: 117174042}
   m_Layer: 0
   m_Name: Neon Music Symbol (37)
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2526,7 +2552,7 @@ GameObject:
   - component: {fileID: 134300807}
   m_Layer: 0
   m_Name: Neon Music Symbol (51)
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2736,7 +2762,7 @@ GameObject:
   - component: {fileID: 146960880}
   m_Layer: 0
   m_Name: Neon Music Symbol (30)
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2842,7 +2868,7 @@ GameObject:
   - component: {fileID: 149518943}
   m_Layer: 0
   m_Name: Neon Music Symbol (9)
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3138,12 +3164,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 166669613}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 257.509, y: 1.81, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.05899048, y: 0, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_Father: {fileID: 1211677690}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &168165512
 GameObject:
@@ -3175,85 +3201,6 @@ Transform:
   m_Father: {fileID: 883970489}
   m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &173436007
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 173436009}
-  - component: {fileID: 173436008}
-  m_Layer: 0
-  m_Name: Neon bar EX middle (4)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!212 &173436008
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 173436007}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 82abba3541531154380c470e11ceb62c, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 5, y: 5}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!4 &173436009
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 173436007}
-  m_LocalRotation: {x: -0, y: -0, z: 0.2588191, w: 0.9659258}
-  m_LocalPosition: {x: 184.218, y: -1.3410006, z: -1}
-  m_LocalScale: {x: 1.5573599, y: 0.22986001, z: 0.19939}
-  m_Children: []
-  m_Father: {fileID: 919622867}
-  m_RootOrder: 28
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 30}
 --- !u!1 &177295412
 GameObject:
   m_ObjectHideFlags: 0
@@ -3632,7 +3579,7 @@ Transform:
   - {fileID: 249015934}
   - {fileID: 1975810012}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &210014099
 GameObject:
@@ -3760,7 +3707,7 @@ GameObject:
   - component: {fileID: 240301575}
   m_Layer: 0
   m_Name: Neon Music Symbol (22)
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4489,7 +4436,7 @@ Transform:
   - {fileID: 553866929}
   - {fileID: 2036162064}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &281850156
 GameObject:
@@ -4874,7 +4821,7 @@ GameObject:
   - component: {fileID: 294920778}
   m_Layer: 0
   m_Name: Neon Music Symbol (32)
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5045,7 +4992,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 298603790}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -167.78, y: 2.13, z: -10}
+  m_LocalPosition: {x: -205.2, y: 2.13, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -5356,7 +5303,7 @@ GameObject:
   - component: {fileID: 336352079}
   m_Layer: 0
   m_Name: Neon Music Symbol (17)
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5749,7 +5696,7 @@ GameObject:
   - component: {fileID: 369635883}
   m_Layer: 0
   m_Name: Neon Music Symbol (2)
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5976,7 +5923,7 @@ Transform:
   m_LocalScale: {x: 3.3994608, y: 0.22900002, z: 0.19939}
   m_Children: []
   m_Father: {fileID: 919622867}
-  m_RootOrder: 30
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 29.9}
 --- !u!61 &375926842
 BoxCollider2D:
@@ -6065,7 +6012,7 @@ GameObject:
   - component: {fileID: 378717857}
   m_Layer: 0
   m_Name: Neon Music Symbol (18)
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6749,7 +6696,7 @@ GameObject:
   - component: {fileID: 421509824}
   m_Layer: 0
   m_Name: Neon Music Symbol (57)
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6933,9 +6880,10 @@ GameObject:
   - component: {fileID: 428386245}
   - component: {fileID: 428386244}
   - component: {fileID: 428386243}
+  - component: {fileID: 428386246}
   m_Layer: 0
   m_Name: Trigger
-  m_TagString: Ground
+  m_TagString: obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7025,6 +6973,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 428386241}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &428386246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 428386241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12a84b0fbadf7d44f938176d46f51c5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &434337408
 GameObject:
   m_ObjectHideFlags: 0
@@ -7221,7 +7181,7 @@ GameObject:
   - component: {fileID: 440677610}
   m_Layer: 0
   m_Name: Neon Music Symbol (66)
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7431,7 +7391,7 @@ GameObject:
   - component: {fileID: 471702683}
   m_Layer: 0
   m_Name: Neon Music Symbol (54)
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7615,9 +7575,10 @@ GameObject:
   - component: {fileID: 479690049}
   - component: {fileID: 479690048}
   - component: {fileID: 479690047}
+  - component: {fileID: 479690050}
   m_Layer: 0
   m_Name: Trigger
-  m_TagString: Ground
+  m_TagString: obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7707,6 +7668,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 479690045}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &479690050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 479690045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12a84b0fbadf7d44f938176d46f51c5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &487039562
 GameObject:
   m_ObjectHideFlags: 0
@@ -8039,7 +8012,7 @@ GameObject:
   - component: {fileID: 509299025}
   m_Layer: 0
   m_Name: Neon Music Symbol (1)
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8145,7 +8118,7 @@ GameObject:
   - component: {fileID: 510331068}
   m_Layer: 0
   m_Name: Neon Music Symbol (69)
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8360,7 +8333,7 @@ GameObject:
   - component: {fileID: 524891441}
   m_Layer: 0
   m_Name: Neon Music Symbol (31)
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8655,7 +8628,7 @@ GameObject:
   - component: {fileID: 549395752}
   m_Layer: 0
   m_Name: Neon Music Symbol (52)
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9265,7 +9238,7 @@ GameObject:
   - component: {fileID: 584549644}
   m_Layer: 0
   m_Name: Neon Music Symbol (10)
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10057,7 +10030,7 @@ GameObject:
   - component: {fileID: 638137142}
   m_Layer: 0
   m_Name: Neon Music Symbol (34)
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10162,9 +10135,10 @@ GameObject:
   - component: {fileID: 642650235}
   - component: {fileID: 642650234}
   - component: {fileID: 642650233}
+  - component: {fileID: 642650236}
   m_Layer: 0
   m_Name: Trigger
-  m_TagString: Ground
+  m_TagString: obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10254,6 +10228,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 642650231}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &642650236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 642650231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12a84b0fbadf7d44f938176d46f51c5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &644076808
 GameObject:
   m_ObjectHideFlags: 0
@@ -10476,7 +10462,7 @@ Transform:
   - {fileID: 1573159683}
   - {fileID: 1914364282}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &646295050
 GameObject:
@@ -10727,9 +10713,10 @@ GameObject:
   - component: {fileID: 667327635}
   - component: {fileID: 667327634}
   - component: {fileID: 667327633}
+  - component: {fileID: 667327636}
   m_Layer: 0
   m_Name: Trigger
-  m_TagString: Ground
+  m_TagString: obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10819,6 +10806,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 667327631}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &667327636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 667327631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12a84b0fbadf7d44f938176d46f51c5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &669440445
 GameObject:
   m_ObjectHideFlags: 0
@@ -11237,7 +11236,7 @@ Transform:
   - {fileID: 1258395450}
   - {fileID: 510331067}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &698695056
 GameObject:
@@ -11252,7 +11251,7 @@ GameObject:
   - component: {fileID: 698695058}
   m_Layer: 0
   m_Name: Neon Music Symbol (20)
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11437,7 +11436,7 @@ GameObject:
   - component: {fileID: 703161202}
   m_Layer: 0
   m_Name: Neon Music Symbol (26)
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11622,7 +11621,7 @@ GameObject:
   - component: {fileID: 715689667}
   m_Layer: 0
   m_Name: Neon Music Symbol (33)
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12119,7 +12118,7 @@ GameObject:
   - component: {fileID: 752239745}
   m_Layer: 0
   m_Name: Neon Music Symbol (5)
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12438,9 +12437,10 @@ GameObject:
   - component: {fileID: 767957153}
   - component: {fileID: 767957152}
   - component: {fileID: 767957151}
+  - component: {fileID: 767957154}
   m_Layer: 0
   m_Name: Trigger
-  m_TagString: Ground
+  m_TagString: obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12530,6 +12530,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 767957149}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &767957154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 767957149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12a84b0fbadf7d44f938176d46f51c5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &771677890
 GameObject:
   m_ObjectHideFlags: 0
@@ -12847,7 +12859,7 @@ Transform:
   m_LocalScale: {x: 1.5543404, y: 0.22900002, z: 0.19939}
   m_Children: []
   m_Father: {fileID: 919622867}
-  m_RootOrder: 31
+  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 29.9}
 --- !u!61 &783571733
 BoxCollider2D:
@@ -12935,9 +12947,10 @@ GameObject:
   - component: {fileID: 787657309}
   - component: {fileID: 787657308}
   - component: {fileID: 787657307}
+  - component: {fileID: 787657310}
   m_Layer: 0
   m_Name: Trigger
-  m_TagString: Ground
+  m_TagString: obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13027,6 +13040,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 787657305}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &787657310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 787657305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12a84b0fbadf7d44f938176d46f51c5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &791423356
 GameObject:
   m_ObjectHideFlags: 0
@@ -13118,9 +13143,10 @@ GameObject:
   - component: {fileID: 794818793}
   - component: {fileID: 794818792}
   - component: {fileID: 794818791}
+  - component: {fileID: 794818794}
   m_Layer: 0
   m_Name: Trigger
-  m_TagString: Ground
+  m_TagString: obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13210,6 +13236,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 794818789}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &794818794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 794818789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12a84b0fbadf7d44f938176d46f51c5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &797181008
 GameObject:
   m_ObjectHideFlags: 0
@@ -13381,7 +13419,7 @@ GameObject:
   - component: {fileID: 800589736}
   m_Layer: 0
   m_Name: Neon Music Symbol (42)
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13603,7 +13641,7 @@ PrefabInstance:
     - target: {fileID: 7465876298761090325, guid: c18c5ab10f5e468408062f4b65fd8780,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7465876298761090325, guid: c18c5ab10f5e468408062f4b65fd8780,
         type: 3}
@@ -13645,7 +13683,7 @@ GameObject:
   - component: {fileID: 822028457}
   m_Layer: 0
   m_Name: Neon Music Symbol (63)
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14063,7 +14101,7 @@ GameObject:
   - component: {fileID: 834526271}
   m_Layer: 0
   m_Name: Neon Music Symbol (64)
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14169,7 +14207,7 @@ GameObject:
   - component: {fileID: 838422018}
   m_Layer: 0
   m_Name: Neon Music Symbol (11)
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14729,9 +14767,10 @@ GameObject:
   - component: {fileID: 882294744}
   - component: {fileID: 882294743}
   - component: {fileID: 882294742}
+  - component: {fileID: 882294745}
   m_Layer: 0
   m_Name: Trigger
-  m_TagString: Ground
+  m_TagString: obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14821,6 +14860,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 882294740}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &882294745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 882294740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12a84b0fbadf7d44f938176d46f51c5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &882300771
 GameObject:
   m_ObjectHideFlags: 0
@@ -14834,7 +14885,7 @@ GameObject:
   - component: {fileID: 882300773}
   m_Layer: 0
   m_Name: Neon Music Symbol (60)
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15047,7 +15098,7 @@ Transform:
   - {fileID: 2123043812}
   - {fileID: 108851523}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &886295384
 GameObject:
@@ -15269,9 +15320,10 @@ GameObject:
   - component: {fileID: 890380112}
   - component: {fileID: 890380111}
   - component: {fileID: 890380110}
+  - component: {fileID: 890380113}
   m_Layer: 0
   m_Name: Trigger
-  m_TagString: Ground
+  m_TagString: obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15361,6 +15413,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 890380108}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &890380113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 890380108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12a84b0fbadf7d44f938176d46f51c5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &898457818
 GameObject:
   m_ObjectHideFlags: 0
@@ -15612,7 +15676,7 @@ GameObject:
   - component: {fileID: 902001233}
   m_Layer: 0
   m_Name: Neon Music Symbol (15)
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15875,9 +15939,10 @@ GameObject:
   - component: {fileID: 906668715}
   - component: {fileID: 906668714}
   - component: {fileID: 906668713}
+  - component: {fileID: 906668716}
   m_Layer: 0
   m_Name: Trigger
-  m_TagString: Ground
+  m_TagString: obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15967,6 +16032,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 906668711}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &906668716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 906668711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12a84b0fbadf7d44f938176d46f51c5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &913618164
 GameObject:
   m_ObjectHideFlags: 0
@@ -16132,12 +16209,11 @@ Transform:
   - {fileID: 1155493712}
   - {fileID: 606198007}
   - {fileID: 1290527917}
-  - {fileID: 173436009}
   - {fileID: 2034108256}
   - {fileID: 375926841}
   - {fileID: 783571732}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &919917741
 GameObject:
@@ -16521,7 +16597,7 @@ PrefabInstance:
     - target: {fileID: 5907832039978726031, guid: e162e8ce55142b440b2a3eaa9932b3ce,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 5907832039978726031, guid: e162e8ce55142b440b2a3eaa9932b3ce,
         type: 3}
@@ -16568,6 +16644,22 @@ PrefabInstance:
       propertyPath: Speed
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5907832039978726030, guid: e162e8ce55142b440b2a3eaa9932b3ce,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 02051fddded4e544ebe62736233e7fff,
+        type: 3}
+    - target: {fileID: 5907832039978726030, guid: e162e8ce55142b440b2a3eaa9932b3ce,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 6.8199997
+      objectReference: {fileID: 0}
+    - target: {fileID: 5907832039978726030, guid: e162e8ce55142b440b2a3eaa9932b3ce,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2972483263240265812, guid: e162e8ce55142b440b2a3eaa9932b3ce, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: e162e8ce55142b440b2a3eaa9932b3ce, type: 3}
@@ -16584,7 +16676,7 @@ GameObject:
   - component: {fileID: 954460026}
   m_Layer: 0
   m_Name: Neon Music Symbol
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17716,9 +17808,10 @@ GameObject:
   - component: {fileID: 985604635}
   - component: {fileID: 985604634}
   - component: {fileID: 985604633}
+  - component: {fileID: 985604636}
   m_Layer: 0
   m_Name: Trigger
-  m_TagString: Ground
+  m_TagString: obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17808,6 +17901,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 985604631}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &985604636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 985604631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12a84b0fbadf7d44f938176d46f51c5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &986578922
 GameObject:
   m_ObjectHideFlags: 0
@@ -17821,7 +17926,7 @@ GameObject:
   - component: {fileID: 986578924}
   m_Layer: 0
   m_Name: Neon Music Symbol (38)
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17926,9 +18031,10 @@ GameObject:
   - component: {fileID: 988936523}
   - component: {fileID: 988936522}
   - component: {fileID: 988936521}
+  - component: {fileID: 988936524}
   m_Layer: 0
   m_Name: Trigger
-  m_TagString: Ground
+  m_TagString: obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18018,6 +18124,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 988936519}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &988936524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 988936519}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12a84b0fbadf7d44f938176d46f51c5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1001995925
 GameObject:
   m_ObjectHideFlags: 0
@@ -18030,9 +18148,10 @@ GameObject:
   - component: {fileID: 1001995929}
   - component: {fileID: 1001995928}
   - component: {fileID: 1001995927}
+  - component: {fileID: 1001995930}
   m_Layer: 0
   m_Name: Trigger
-  m_TagString: Ground
+  m_TagString: obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18122,6 +18241,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1001995925}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1001995930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1001995925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12a84b0fbadf7d44f938176d46f51c5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1005407931
 GameObject:
   m_ObjectHideFlags: 0
@@ -18452,9 +18583,10 @@ GameObject:
   - component: {fileID: 1026523470}
   - component: {fileID: 1026523469}
   - component: {fileID: 1026523468}
+  - component: {fileID: 1026523471}
   m_Layer: 0
   m_Name: Trigger
-  m_TagString: Ground
+  m_TagString: obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18544,6 +18676,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1026523466}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1026523471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1026523466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12a84b0fbadf7d44f938176d46f51c5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1028915122
 GameObject:
   m_ObjectHideFlags: 0
@@ -18899,7 +19043,7 @@ Transform:
   - {fileID: 1420534429}
   - {fileID: 1737952774}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1044037960
 GameObject:
@@ -19543,9 +19687,10 @@ GameObject:
   - component: {fileID: 1088680923}
   - component: {fileID: 1088680922}
   - component: {fileID: 1088680921}
+  - component: {fileID: 1088680924}
   m_Layer: 0
   m_Name: Trigger
-  m_TagString: Ground
+  m_TagString: obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19635,6 +19780,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1088680919}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1088680924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1088680919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12a84b0fbadf7d44f938176d46f51c5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1090022050
 GameObject:
   m_ObjectHideFlags: 0
@@ -20118,7 +20275,7 @@ GameObject:
   - component: {fileID: 1109079123}
   m_Layer: 0
   m_Name: Neon Music Symbol (4)
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20329,9 +20486,10 @@ GameObject:
   - component: {fileID: 1127916171}
   - component: {fileID: 1127916170}
   - component: {fileID: 1127916169}
+  - component: {fileID: 1127916172}
   m_Layer: 0
   m_Name: Trigger
-  m_TagString: Ground
+  m_TagString: obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20421,6 +20579,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1127916167}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1127916172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1127916167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12a84b0fbadf7d44f938176d46f51c5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1138815211
 GameObject:
   m_ObjectHideFlags: 0
@@ -20433,9 +20603,10 @@ GameObject:
   - component: {fileID: 1138815215}
   - component: {fileID: 1138815214}
   - component: {fileID: 1138815213}
+  - component: {fileID: 1138815216}
   m_Layer: 0
   m_Name: Trigger
-  m_TagString: Ground
+  m_TagString: obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20525,6 +20696,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1138815211}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1138815216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1138815211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12a84b0fbadf7d44f938176d46f51c5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1141616317
 GameObject:
   m_ObjectHideFlags: 0
@@ -20641,9 +20824,10 @@ GameObject:
   - component: {fileID: 1146239858}
   - component: {fileID: 1146239857}
   - component: {fileID: 1146239856}
+  - component: {fileID: 1146239859}
   m_Layer: 0
   m_Name: Trigger
-  m_TagString: Ground
+  m_TagString: obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20733,6 +20917,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1146239854}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1146239859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1146239854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12a84b0fbadf7d44f938176d46f51c5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1147200865
 GameObject:
   m_ObjectHideFlags: 0
@@ -21222,9 +21418,10 @@ GameObject:
   - component: {fileID: 1170637585}
   - component: {fileID: 1170637584}
   - component: {fileID: 1170637583}
+  - component: {fileID: 1170637586}
   m_Layer: 0
   m_Name: Trigger
-  m_TagString: Ground
+  m_TagString: obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21314,6 +21511,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1170637581}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1170637586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1170637581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12a84b0fbadf7d44f938176d46f51c5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1181085359
 GameObject:
   m_ObjectHideFlags: 0
@@ -21589,7 +21798,7 @@ GameObject:
   - component: {fileID: 1203927918}
   m_Layer: 0
   m_Name: Neon Music Symbol (41)
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21682,6 +21891,38 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1211677689
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1211677690}
+  m_Layer: 0
+  m_Name: Road
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1211677690
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1211677689}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 257.45, y: 1.81, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 166669616}
+  - {fileID: 1865470426}
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1219640882
 GameObject:
   m_ObjectHideFlags: 0
@@ -21803,9 +22044,10 @@ GameObject:
   - component: {fileID: 1237451795}
   - component: {fileID: 1237451794}
   - component: {fileID: 1237451793}
+  - component: {fileID: 1237451796}
   m_Layer: 0
   m_Name: Trigger
-  m_TagString: Ground
+  m_TagString: obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21895,6 +22137,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1237451791}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1237451796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1237451791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12a84b0fbadf7d44f938176d46f51c5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1253063777
 GameObject:
   m_ObjectHideFlags: 0
@@ -21987,7 +22241,7 @@ GameObject:
   - component: {fileID: 1254086648}
   m_Layer: 0
   m_Name: Neon Music Symbol (48)
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22093,7 +22347,7 @@ GameObject:
   - component: {fileID: 1258395451}
   m_Layer: 0
   m_Name: Neon Music Symbol (68)
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22413,9 +22667,10 @@ GameObject:
   - component: {fileID: 1281200564}
   - component: {fileID: 1281200563}
   - component: {fileID: 1281200562}
+  - component: {fileID: 1281200565}
   m_Layer: 0
   m_Name: Trigger
-  m_TagString: Ground
+  m_TagString: obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22505,6 +22760,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1281200560}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1281200565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1281200560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12a84b0fbadf7d44f938176d46f51c5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1286165831
 GameObject:
   m_ObjectHideFlags: 0
@@ -22832,7 +23099,7 @@ GameObject:
   - component: {fileID: 1292243353}
   m_Layer: 0
   m_Name: Neon Music Symbol (44)
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23412,7 +23679,7 @@ GameObject:
   - component: {fileID: 1330572291}
   m_Layer: 0
   m_Name: Neon Music Symbol (35)
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23518,7 +23785,7 @@ GameObject:
   - component: {fileID: 1332630757}
   m_Layer: 0
   m_Name: Neon Music Symbol (62)
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23832,7 +24099,7 @@ GameObject:
   - component: {fileID: 1351091463}
   m_Layer: 0
   m_Name: Neon Music Symbol (3)
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24887,7 +25154,7 @@ GameObject:
   - component: {fileID: 1384794189}
   m_Layer: 0
   m_Name: Neon Music Symbol (24)
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25481,7 +25748,7 @@ GameObject:
   - component: {fileID: 1420158076}
   m_Layer: 0
   m_Name: Neon Music Symbol (53)
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25586,9 +25853,10 @@ GameObject:
   - component: {fileID: 1420534432}
   - component: {fileID: 1420534431}
   - component: {fileID: 1420534430}
+  - component: {fileID: 1420534433}
   m_Layer: 0
   m_Name: Trigger
-  m_TagString: Ground
+  m_TagString: obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25678,6 +25946,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1420534428}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1420534433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1420534428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12a84b0fbadf7d44f938176d46f51c5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1421960816
 GameObject:
   m_ObjectHideFlags: 0
@@ -26056,9 +26336,10 @@ GameObject:
   - component: {fileID: 1433846424}
   - component: {fileID: 1433846423}
   - component: {fileID: 1433846422}
+  - component: {fileID: 1433846425}
   m_Layer: 0
   m_Name: Trigger
-  m_TagString: Ground
+  m_TagString: obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26148,6 +26429,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1433846420}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1433846425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1433846420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12a84b0fbadf7d44f938176d46f51c5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1435564818
 GameObject:
   m_ObjectHideFlags: 0
@@ -26345,9 +26638,10 @@ GameObject:
   - component: {fileID: 1462501143}
   - component: {fileID: 1462501142}
   - component: {fileID: 1462501141}
+  - component: {fileID: 1462501144}
   m_Layer: 0
   m_Name: Trigger
-  m_TagString: Ground
+  m_TagString: obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26437,6 +26731,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1462501139}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1462501144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1462501139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12a84b0fbadf7d44f938176d46f51c5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1464497052
 GameObject:
   m_ObjectHideFlags: 0
@@ -26821,7 +27127,7 @@ GameObject:
   - component: {fileID: 1514368752}
   m_Layer: 0
   m_Name: Neon Music Symbol (45)
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27825,9 +28131,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5a153e461528834a9646aee192d9769, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticalPref: {fileID: 0}
+  ParticalPref: {fileID: 7406089593637798975, guid: 23f561a09fffb7b49be64695e691e6fa,
+    type: 3}
+  Badsound: {fileID: 8269465207415765230, guid: 2e392372195927c45ae6d188a77c278a,
+    type: 3}
+  CoinPickUpsound: {fileID: 1656240686862068909, guid: 0665d254b971ce84f8131f614dbc6679,
+    type: 3}
   Speed: 7.5
   JumpForce: 24
+  Screenflash: {fileID: 0}
 --- !u!70 &1591474905
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -28300,7 +28612,7 @@ GameObject:
   - component: {fileID: 1614929182}
   m_Layer: 0
   m_Name: Neon Music Symbol (19)
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28406,7 +28718,7 @@ GameObject:
   - component: {fileID: 1616722138}
   m_Layer: 0
   m_Name: Neon Music Symbol (59)
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28591,7 +28903,7 @@ GameObject:
   - component: {fileID: 1642982537}
   m_Layer: 0
   m_Name: Neon Music Symbol (49)
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28958,9 +29270,10 @@ GameObject:
   - component: {fileID: 1654804800}
   - component: {fileID: 1654804799}
   - component: {fileID: 1654804798}
+  - component: {fileID: 1654804801}
   m_Layer: 0
   m_Name: Trigger
-  m_TagString: Ground
+  m_TagString: obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29050,6 +29363,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1654804796}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1654804801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1654804796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12a84b0fbadf7d44f938176d46f51c5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1655047986
 GameObject:
   m_ObjectHideFlags: 0
@@ -29167,7 +29492,7 @@ GameObject:
   - component: {fileID: 1657973503}
   m_Layer: 0
   m_Name: Neon Music Symbol (25)
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29273,7 +29598,7 @@ GameObject:
   - component: {fileID: 1661308069}
   m_Layer: 0
   m_Name: Neon Music Symbol (28)
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29458,7 +29783,7 @@ GameObject:
   - component: {fileID: 1680038443}
   m_Layer: 0
   m_Name: Neon Music Symbol (56)
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29564,7 +29889,7 @@ GameObject:
   - component: {fileID: 1680733133}
   m_Layer: 0
   m_Name: Neon Music Symbol (29)
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29957,7 +30282,7 @@ GameObject:
   - component: {fileID: 1695834527}
   m_Layer: 0
   m_Name: Neon Music Symbol (12)
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30637,7 +30962,7 @@ GameObject:
   - component: {fileID: 1722049031}
   m_Layer: 0
   m_Name: Neon Music Symbol (6)
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30743,7 +31068,7 @@ GameObject:
   - component: {fileID: 1724756146}
   m_Layer: 0
   m_Name: Neon Music Symbol (16)
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31031,9 +31356,10 @@ GameObject:
   - component: {fileID: 1734611052}
   - component: {fileID: 1734611051}
   - component: {fileID: 1734611050}
+  - component: {fileID: 1734611053}
   m_Layer: 0
   m_Name: Trigger
-  m_TagString: Ground
+  m_TagString: obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31123,6 +31449,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1734611048}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1734611053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1734611048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12a84b0fbadf7d44f938176d46f51c5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1737952773
 GameObject:
   m_ObjectHideFlags: 0
@@ -31135,9 +31473,10 @@ GameObject:
   - component: {fileID: 1737952777}
   - component: {fileID: 1737952776}
   - component: {fileID: 1737952775}
+  - component: {fileID: 1737952778}
   m_Layer: 0
   m_Name: Trigger
-  m_TagString: Ground
+  m_TagString: obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31227,6 +31566,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1737952773}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1737952778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1737952773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12a84b0fbadf7d44f938176d46f51c5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1738417742
 GameObject:
   m_ObjectHideFlags: 0
@@ -32339,9 +32690,10 @@ GameObject:
   - component: {fileID: 1771205047}
   - component: {fileID: 1771205046}
   - component: {fileID: 1771205045}
+  - component: {fileID: 1771205048}
   m_Layer: 0
   m_Name: Trigger
-  m_TagString: Ground
+  m_TagString: obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32431,6 +32783,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1771205043}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1771205048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1771205043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12a84b0fbadf7d44f938176d46f51c5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1777769770
 GameObject:
   m_ObjectHideFlags: 0
@@ -33126,7 +33490,7 @@ GameObject:
   - component: {fileID: 1806879072}
   m_Layer: 0
   m_Name: Neon Music Symbol (8)
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33231,9 +33595,10 @@ GameObject:
   - component: {fileID: 1806919021}
   - component: {fileID: 1806919020}
   - component: {fileID: 1806919019}
+  - component: {fileID: 1806919022}
   m_Layer: 0
   m_Name: Trigger
-  m_TagString: Ground
+  m_TagString: obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33323,6 +33688,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1806919017}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1806919022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1806919017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12a84b0fbadf7d44f938176d46f51c5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1812489167
 GameObject:
   m_ObjectHideFlags: 0
@@ -33444,9 +33821,10 @@ GameObject:
   - component: {fileID: 1817403327}
   - component: {fileID: 1817403326}
   - component: {fileID: 1817403325}
+  - component: {fileID: 1817403328}
   m_Layer: 0
   m_Name: Trigger
-  m_TagString: Ground
+  m_TagString: obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33536,6 +33914,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1817403323}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1817403328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1817403323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12a84b0fbadf7d44f938176d46f51c5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1821952722
 GameObject:
   m_ObjectHideFlags: 0
@@ -33653,7 +34043,7 @@ GameObject:
   - component: {fileID: 1822167364}
   m_Layer: 0
   m_Name: Neon Music Symbol (23)
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34440,9 +34830,10 @@ GameObject:
   - component: {fileID: 1850452981}
   - component: {fileID: 1850452980}
   - component: {fileID: 1850452979}
+  - component: {fileID: 1850452982}
   m_Layer: 0
   m_Name: Trigger
-  m_TagString: Ground
+  m_TagString: obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34532,6 +34923,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1850452977}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1850452982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1850452977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12a84b0fbadf7d44f938176d46f51c5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1852193078
 GameObject:
   m_ObjectHideFlags: 0
@@ -34545,7 +34948,7 @@ GameObject:
   - component: {fileID: 1852193080}
   m_Layer: 0
   m_Name: Neon Music Symbol (46)
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34651,7 +35054,7 @@ GameObject:
   - component: {fileID: 1861077509}
   m_Layer: 0
   m_Name: Neon Music Symbol (67)
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34922,12 +35325,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1865470424}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 257.45, y: 1.81, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_Father: {fileID: 1211677690}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1867276222
 GameObject:
@@ -35179,7 +35582,7 @@ GameObject:
   - component: {fileID: 1877457704}
   m_Layer: 0
   m_Name: Neon Music Symbol (21)
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35285,7 +35688,7 @@ GameObject:
   - component: {fileID: 1879130371}
   m_Layer: 0
   m_Name: Neon Music Symbol (61)
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35469,9 +35872,10 @@ GameObject:
   - component: {fileID: 1882726563}
   - component: {fileID: 1882726562}
   - component: {fileID: 1882726561}
+  - component: {fileID: 1882726564}
   m_Layer: 0
   m_Name: Trigger
-  m_TagString: Ground
+  m_TagString: obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35561,6 +35965,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1882726559}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1882726564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1882726559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12a84b0fbadf7d44f938176d46f51c5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1899063428
 GameObject:
   m_ObjectHideFlags: 0
@@ -35574,7 +35990,7 @@ GameObject:
   - component: {fileID: 1899063430}
   m_Layer: 0
   m_Name: Neon Music Symbol (43)
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35680,7 +36096,7 @@ GameObject:
   - component: {fileID: 1913429991}
   m_Layer: 0
   m_Name: Neon Music Symbol (47)
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35889,9 +36305,10 @@ GameObject:
   - component: {fileID: 1914577591}
   - component: {fileID: 1914577590}
   - component: {fileID: 1914577589}
+  - component: {fileID: 1914577592}
   m_Layer: 0
   m_Name: Trigger
-  m_TagString: Ground
+  m_TagString: obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35981,6 +36398,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1914577587}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1914577592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1914577587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12a84b0fbadf7d44f938176d46f51c5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1917415975
 GameObject:
   m_ObjectHideFlags: 0
@@ -35994,7 +36423,7 @@ GameObject:
   - component: {fileID: 1917415978}
   m_Layer: 0
   m_Name: Neon Music Symbol (13)
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37099,9 +37528,10 @@ GameObject:
   - component: {fileID: 1975054065}
   - component: {fileID: 1975054064}
   - component: {fileID: 1975054063}
+  - component: {fileID: 1975054066}
   m_Layer: 0
   m_Name: Trigger
-  m_TagString: Ground
+  m_TagString: obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37191,6 +37621,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1975054061}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1975054066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1975054061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12a84b0fbadf7d44f938176d46f51c5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1975810010
 GameObject:
   m_ObjectHideFlags: 0
@@ -37282,9 +37724,10 @@ GameObject:
   - component: {fileID: 1976133270}
   - component: {fileID: 1976133269}
   - component: {fileID: 1976133268}
+  - component: {fileID: 1976133271}
   m_Layer: 0
   m_Name: Trigger
-  m_TagString: Ground
+  m_TagString: obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37374,6 +37817,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1976133266}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1976133271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1976133266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12a84b0fbadf7d44f938176d46f51c5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1982040184
 GameObject:
   m_ObjectHideFlags: 0
@@ -37387,7 +37842,7 @@ GameObject:
   - component: {fileID: 1982040186}
   m_Layer: 0
   m_Name: Neon Music Symbol (36)
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37836,7 +38291,7 @@ GameObject:
   - component: {fileID: 2003293849}
   m_Layer: 0
   m_Name: Neon Music Symbol (50)
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38085,7 +38540,7 @@ Transform:
   m_LocalScale: {x: 0.4, y: 0.4, z: 0.31438}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2012442793
 GameObject:
@@ -38203,9 +38658,10 @@ GameObject:
   - component: {fileID: 2016652630}
   - component: {fileID: 2016652629}
   - component: {fileID: 2016652628}
+  - component: {fileID: 2016652631}
   m_Layer: 0
   m_Name: Trigger
-  m_TagString: Ground
+  m_TagString: obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38295,6 +38751,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2016652626}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2016652631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2016652626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12a84b0fbadf7d44f938176d46f51c5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2019852169
 GameObject:
   m_ObjectHideFlags: 0
@@ -38548,7 +39016,7 @@ GameObject:
   - component: {fileID: 2031384381}
   m_Layer: 0
   m_Name: Neon Music Symbol (58)
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38751,7 +39219,7 @@ Transform:
   m_LocalScale: {x: 1.5573599, y: 0.22986001, z: 0.19939}
   m_Children: []
   m_Father: {fileID: 919622867}
-  m_RootOrder: 29
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 30}
 --- !u!61 &2034108257
 BoxCollider2D:
@@ -40105,9 +40573,10 @@ GameObject:
   - component: {fileID: 2093834008}
   - component: {fileID: 2093834007}
   - component: {fileID: 2093834006}
+  - component: {fileID: 2093834009}
   m_Layer: 0
   m_Name: Trigger
-  m_TagString: Ground
+  m_TagString: obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40197,6 +40666,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2093834004}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2093834009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2093834004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12a84b0fbadf7d44f938176d46f51c5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2104770886
 GameObject:
   m_ObjectHideFlags: 0
@@ -40209,9 +40690,10 @@ GameObject:
   - component: {fileID: 2104770890}
   - component: {fileID: 2104770889}
   - component: {fileID: 2104770888}
+  - component: {fileID: 2104770891}
   m_Layer: 0
   m_Name: Trigger
-  m_TagString: Ground
+  m_TagString: obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40301,6 +40783,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2104770886}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2104770891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2104770886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12a84b0fbadf7d44f938176d46f51c5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2105858961
 GameObject:
   m_ObjectHideFlags: 0
@@ -40420,7 +40914,7 @@ GameObject:
   - component: {fileID: 2106954606}
   m_Layer: 0
   m_Name: Neon Music Symbol (7)
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40709,7 +41203,7 @@ GameObject:
   - component: {fileID: 2124588966}
   m_Layer: 0
   m_Name: Neon Music Symbol (55)
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41023,7 +41517,7 @@ GameObject:
   - component: {fileID: 2145616255}
   m_Layer: 0
   m_Name: Neon Music Symbol (65)
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
