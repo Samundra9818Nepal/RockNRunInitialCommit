@@ -7,9 +7,9 @@ public class PlayerMOvement : MonoBehaviour
 {
 
     public GameObject ParticalPref; // Particle system.
-    public GameObject Badsound;//Badsound...
-    AudioSource VolumeDown; // for making the badsound volume up.
-    public GameObject CoinPickUpsound;
+   // public GameObject Badsound;//Badsound...
+   // AudioSource VolumeDown; // for making the badsound volume up.
+    //public GameObject CoinPickUpsound;
     public float Speed;
     public float JumpForce;
     public GameObject Screenflash;
@@ -90,12 +90,12 @@ public class PlayerMOvement : MonoBehaviour
         if (collision.gameObject.tag == "obstacles")
         {
 
-            VolumeDown.volume = 0f;
+            //VolumeDown.volume = 0f;
             anim.SetBool("Player Tripover", true);
             Debug.Log("Player Tripover");
             Screenflash.SetActive(true);
-            GameObject Bad_sound = Instantiate(Badsound, transform.position, transform.rotation);
-            Destroy(Bad_sound, 3f);
+           //GameObject Bad_sound = Instantiate(Badsound, transform.position, transform.rotation);
+           //Destroy(Bad_sound, 3f);
             
         }
 
@@ -109,8 +109,8 @@ public class PlayerMOvement : MonoBehaviour
         
         if (collision.gameObject.tag == "Collectables")
         {
-            GameObject PickupSound = Instantiate(CoinPickUpsound, transform.position, transform.rotation);
-            Destroy(PickupSound, 3f);
+            //GameObject PickupSound = Instantiate(CoinPickUpsound, transform.position, transform.rotation);
+            //Destroy(PickupSound, 3f);
             GameObject Particles = Instantiate(ParticalPref, this.transform.position, this.transform.rotation);
             Destroy(collision.gameObject);
             Destroy(Particles, 2f);
@@ -122,10 +122,10 @@ public class PlayerMOvement : MonoBehaviour
 
     private void OnCollisionExit2D(Collision2D collision)
     {
-            anim.SetBool("Player Tripover", false);
-            Debug.Log("Player Tripover");
+        anim.SetBool("Player Tripover", false);
+        Debug.Log("Player Tripover");
         Screenflash.SetActive(false);
-        VolumeDown.volume = 1f;
+        //VolumeDown.volume = 1f;
     }
 
 }

@@ -13,7 +13,7 @@ public class ColliderDisabled : MonoBehaviour
         if(collision.gameObject.tag == "Player" )
         {
 
-            this.GetComponent<PolygonCollider2D>().enabled = false;
+            this.GetComponent<Collider2D>().enabled = false;
 
         }
 
