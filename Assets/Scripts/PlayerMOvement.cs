@@ -7,12 +7,12 @@ public class PlayerMOvement : MonoBehaviour
 {
 
     public GameObject ParticalPref; // Particle system.
-   // public GameObject Badsound;//Badsound...
-   // AudioSource VolumeDown; // for making the badsound volume up.
-    //public GameObject CoinPickUpsound;
+   public GameObject Badsound;//Badsound...
+    AudioSource VolumeDown; // for making the badsound volume up.
+    public GameObject CoinPickUpsound; // Weired Music........
     public float Speed;
     public float JumpForce;
-    //public GameObject Screenflash;
+    public GameObject Screenflash;
     Animator anim;
     CapsuleCollider2D Refcol;
 
@@ -28,9 +28,8 @@ public class PlayerMOvement : MonoBehaviour
         IsGrounded = true;
         RB = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
-        Refcol = GetComponent<CapsuleCollider2D>();
-        //VolumeDown = GetComponent<AudioSource>();
-        
+        Refcol = GetComponent<CapsuleCollider2D>();// Refrencing the collider.
+        VolumeDown = GetComponent<AudioSource>(); // for controlling the volume whenever player trip over.        
     }
 
     //Moving player towards the concert gameobject position.
@@ -93,9 +92,9 @@ public class PlayerMOvement : MonoBehaviour
             //VolumeDown.volume = 0f;
             anim.SetBool("Player Tripover", true);
             Debug.Log("Player Tripover");
-            //Screenflash.SetActive(true);
-           //GameObject Bad_sound = Instantiate(Badsound, transform.position, transform.rotation);
-           //Destroy(Bad_sound, 3f);
+            Screenflash.SetActive(true);
+           GameObject Bad_sound = Instantiate(Badsound, transform.position, transform.rotation);
+           Destroy(Bad_sound, 3f);
             
         }
 
@@ -109,8 +108,8 @@ public class PlayerMOvement : MonoBehaviour
         
         if (collision.gameObject.tag == "Collectables")
         {
-            //GameObject PickupSound = Instantiate(CoinPickUpsound, transform.position, transform.rotation);
-            //Destroy(PickupSound, 3f);
+            GameObject PickupSound = Instantiate(CoinPickUpsound, transform.position, transform.rotation);
+            Destroy(PickupSound, 3f);
             GameObject Particles = Instantiate(ParticalPref, this.transform.position, this.transform.rotation);
             Destroy(collision.gameObject);
             Destroy(Particles, 2f);
@@ -124,8 +123,8 @@ public class PlayerMOvement : MonoBehaviour
     {
         anim.SetBool("Player Tripover", false);
         Debug.Log("Player Tripover");
-       // Screenflash.SetActive(false);
-        //VolumeDown.volume = 1f;
+        Screenflash.SetActive(false);
+        VolumeDown.volume = 1f;
     }
 
 }
