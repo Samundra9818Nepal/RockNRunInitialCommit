@@ -6,6 +6,6 @@ PhysicsMaterial2D:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: UpRamp
-  friction: 0.005
+  m_Name: EDM01UpRamp
+  friction: 0
   bounciness: 0
