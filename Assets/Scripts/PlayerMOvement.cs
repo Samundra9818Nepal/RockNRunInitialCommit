@@ -84,20 +84,6 @@ public class PlayerMOvement : MonoBehaviour
 
         }
 
-
-        // Player Trip over functions.
-        if (collision.gameObject.tag == "obstacles")
-        {
-
-            //VolumeDown.volume = 0f;
-            anim.SetBool("Player Tripover", true);
-            Debug.Log("Player Tripover");
-            Screenflash.SetActive(true);
-           GameObject Bad_sound = Instantiate(Badsound, transform.position, transform.rotation);
-           Destroy(Bad_sound, 3f);
-            
-        }
-
     }
 
 
@@ -108,23 +94,37 @@ public class PlayerMOvement : MonoBehaviour
         
         if (collision.gameObject.tag == "Collectables")
         {
+            Destroy(collision.gameObject);
+            GameObject Particles = Instantiate(ParticalPref, this.transform.position, this.transform.rotation);
+            Destroy(Particles, 2f);
             GameObject PickupSound = Instantiate(CoinPickUpsound, transform.position, transform.rotation);
             Destroy(PickupSound, 3f);
-            GameObject Particles = Instantiate(ParticalPref, this.transform.position, this.transform.rotation);
-            Destroy(collision.gameObject);
-            Destroy(Particles, 2f);
+
+        }
+        // Player Trip over functions.
+        if (collision.gameObject.tag == "obstacles")
+        {
+
+            //VolumeDown.volume = 0f;
+            anim.SetBool("Player Tripover", true);
+            Debug.Log("Player Tripover");
+            Screenflash.SetActive(true);
+            GameObject Bad_sound = Instantiate(Badsound, transform.position, transform.rotation);
+            Destroy(Bad_sound, 3f);
 
         }
 
     }
-    // Disbaling the PlayerTrip over animation.
 
-    private void OnCollisionExit2D(Collision2D collision)
+
+    //Disable player animation
+    private void OnTriggerExit2D(Collider2D other)
     {
         anim.SetBool("Player Tripover", false);
         Debug.Log("Player Tripover");
         Screenflash.SetActive(false);
         VolumeDown.volume = 1f;
     }
-
+    
 }
+
