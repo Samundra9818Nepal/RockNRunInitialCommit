@@ -34468,6 +34468,11 @@ PrefabInstance:
       propertyPath: MaxDistance
       value: 2.2367554
       objectReference: {fileID: 0}
+    - target: {fileID: 7465876298761090320, guid: c18c5ab10f5e468408062f4b65fd8780,
+        type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 7465876298761090326, guid: c18c5ab10f5e468408062f4b65fd8780,
         type: 3}
       propertyPath: m_Enabled

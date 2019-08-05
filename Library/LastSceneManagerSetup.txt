@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Scenes/Credits.unity
-=======
-- path: Assets/Scenes/Rock 1.unity
->>>>>>> master
+- path: Assets/Scenes/EDM 2.unity
   isLoaded: 1
   isActive: 1
