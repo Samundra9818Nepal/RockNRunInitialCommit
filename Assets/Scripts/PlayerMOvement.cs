@@ -7,9 +7,11 @@ public class PlayerMOvement : MonoBehaviour
 {
 
     public GameObject ParticalPref; // Particle system.
-   public GameObject Badsound;//Badsound...
-    AudioSource VolumeDown; // for making the badsound volume up.
-    public GameObject CoinPickUpsound; // Weired Music........
+    public GameObject Playerfoot; // sand effects.
+    public Transform footplace;
+   //public GameObject Badsound;//Badsound...
+    //AudioSource VolumeDown; // for making the badsound volume up.
+    //public GameObject CoinPickUpsound; // Weired Music........
     public float Speed;
     public float JumpForce;
     public GameObject Screenflash;
@@ -17,6 +19,7 @@ public class PlayerMOvement : MonoBehaviour
     CapsuleCollider2D Refcol;
 
     bool IsGrounded; // For Checking if the player Grounded.
+    bool IsSliding;
 
 
     Rigidbody2D RB;
@@ -26,10 +29,11 @@ public class PlayerMOvement : MonoBehaviour
     {
         // Making sure that player is grounded.
         IsGrounded = true;
+        IsSliding = false;
         RB = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         Refcol = GetComponent<CapsuleCollider2D>();// Refrencing the collider.
-        VolumeDown = GetComponent<AudioSource>(); // for controlling the volume whenever player trip over.        
+     //   VolumeDown = GetComponent<AudioSource>(); // for controlling the volume whenever player trip over.        
     }
 
     //Moving player towards the concert gameobject position.
@@ -43,31 +47,30 @@ public class PlayerMOvement : MonoBehaviour
 
     public void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && IsGrounded)
+        if (Input.GetKeyDown(KeyCode.Space)&& !IsSliding)
         {
+            if (IsGrounded)
+            {
 
-            RB.velocity = new Vector2(RB.velocity.x, JumpForce);
+                RB.velocity = new Vector2(RB.velocity.x, JumpForce);
+                // this.gameObject.GetComponent<Rigidbody2D>().AddForce(Vector2.up * JumpForce);
+                IsGrounded = false;
 
-            // this.gameObject.GetComponent<Rigidbody2D>().AddForce(Vector2.up * JumpForce);
-            IsGrounded = false;
+            }
+            
         }
         // this function is for sliding the player by pressing C.
-        if(Input.GetKeyDown("c"))
+        if(Input.GetKeyDown("c") )
         {
-
             anim.SetBool("PlayerSliding", true);
             Refcol.size = new Vector2(Refcol.size.x, 7f);
-        
+            IsSliding = true;
             
         } else if(Input.GetKeyUp("c"))
         {
-
-
             anim.SetBool("PlayerSliding", false);
-
             //Slide.SetBool("PlayerReturn", true);
-
-
+            IsSliding = false;
             Refcol.size = new Vector2(Refcol.size.x, 10f);
         }
     }
@@ -81,6 +84,8 @@ public class PlayerMOvement : MonoBehaviour
         {
             IsGrounded = true;
             Debug.Log("IsGrounded");
+            GameObject Sand_effects = Instantiate(Playerfoot, footplace.transform.position, footplace.transform.rotation);
+            Destroy(Sand_effects,1f);
 
         }
 
@@ -97,8 +102,8 @@ public class PlayerMOvement : MonoBehaviour
             Destroy(collision.gameObject);
             GameObject Particles = Instantiate(ParticalPref, this.transform.position, this.transform.rotation);
             Destroy(Particles, 2f);
-            GameObject PickupSound = Instantiate(CoinPickUpsound, transform.position, transform.rotation);
-            Destroy(PickupSound, 3f);
+           // GameObject PickupSound = Instantiate(CoinPickUpsound, transform.position, transform.rotation);
+           // Destroy(PickupSound, 3f);
 
         }
         // Player Trip over functions.
@@ -109,8 +114,8 @@ public class PlayerMOvement : MonoBehaviour
             anim.SetBool("Player Tripover", true);
             Debug.Log("Player Tripover");
             Screenflash.SetActive(true);
-            GameObject Bad_sound = Instantiate(Badsound, transform.position, transform.rotation);
-            Destroy(Bad_sound, 3f);
+          //  GameObject Bad_sound = Instantiate(Badsound, transform.position, transform.rotation);
+           // Destroy(Bad_sound, 3f);
 
         }
 
@@ -123,7 +128,7 @@ public class PlayerMOvement : MonoBehaviour
         anim.SetBool("Player Tripover", false);
         Debug.Log("Player Tripover");
         Screenflash.SetActive(false);
-        VolumeDown.volume = 1f;
+       // VolumeDown.volume = 1f;
     }
     
 }
