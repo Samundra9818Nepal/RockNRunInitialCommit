@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Scenes/Rock 2.unity
-=======
-- path: Assets/Scenes/MainMenu.unity
->>>>>>> master
+- path: Assets/Scenes/Loading Screen.unity
   isLoaded: 1
   isActive: 1
