@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/Loading Screen.unity
+=======
+- path: Assets/Scenes/EDM 01.unity
+>>>>>>> master
   isLoaded: 1
   isActive: 1
