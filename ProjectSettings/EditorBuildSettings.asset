@@ -20,9 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Rock 2.unity
     guid: 82160f969116b7e4ba84b381b4b412e8
-  - enabled: 1
-    path: Assets/Scenes/Options.unity
-    guid: aca4ac91dbcc8c84cb9149520ff7dc09
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Credits.unity
     guid: ff08f0ee6cbd4a14c98e6d74d0f7ec0c
@@ -39,6 +39,9 @@ EditorBuildSettings:
     path: Assets/Scenes/FinOptions.unity
     guid: a0ba03721d354744988c0d49ab43aecb
   - enabled: 1
-    path: Assets/Scenes/FinCredits.unity
-    guid: fa568a618b306e7499d8d8f754758052
+    path: Assets/Scenes/Fin Credits.unity
+    guid: 67c9c8ff161b7ec4ebfd84bb2099d269
+  - enabled: 1
+    path: Assets/Scenes/Option.unity
+    guid: 19b2f5690cf8e3a42af1b5c8196b21fc
   m_configObjects: {}
