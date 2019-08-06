@@ -47,7 +47,11 @@ MonoBehaviour:
   m_MinSize: {x: 681, y: 498}
   m_MaxSize: {x: 14004, y: 14048}
   vertical: 0
+<<<<<<< HEAD
   controlID: 10
+=======
+  controlID: 70
+>>>>>>> master
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -219,7 +223,11 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 498}
   m_MaxSize: {x: 10002, y: 14048}
   vertical: 1
+<<<<<<< HEAD
   controlID: 11
+=======
+  controlID: 83
+>>>>>>> master
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -244,7 +252,11 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 224}
   m_MaxSize: {x: 8004, y: 4024}
   vertical: 0
+<<<<<<< HEAD
   controlID: 12
+=======
+  controlID: 84
+>>>>>>> master
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -396,8 +408,13 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_MixersTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
     m_SelectedIDs: 882c0000
     m_LastClickedID: 11400
+=======
+    m_SelectedIDs: 
+    m_LastClickedID: 11412
+>>>>>>> master
     m_ExpandedIDs: 12eb343c
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -561,9 +578,15 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
     m_SelectedIDs: de2c0000
     m_LastClickedID: 11486
     m_ExpandedIDs: 00000000de2c0000162f0000c82f000000ca9a3b
+=======
+    m_SelectedIDs: 962f0000
+    m_LastClickedID: 12182
+    m_ExpandedIDs: 00000000c82c0000fe2e0000b02f000000ca9a3b
+>>>>>>> master
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -591,7 +614,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000de2c0000162f0000c82f0000
+=======
+    m_ExpandedIDs: 00000000c82c0000fe2e0000b02f0000
+>>>>>>> master
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -710,6 +737,7 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
       m_SelectedIDs: f0640000
       m_LastClickedID: 25840
       m_ExpandedIDs: 12edffff9afaffff00fbffff
@@ -717,13 +745,26 @@ MonoBehaviour:
         m_UserAcceptedRename: 0
         m_Name: SceneManager
         m_OriginalName: SceneManager
+=======
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 28f5ffffb0f5ffffc0f5ffff24f6ffff50f6ffff98f6ffff0ef7ffff2ef7ffff50f7ffff72f7ffffa4f7ffffdef7fffffef7ffff20f8ffffc0f8ffff56faffff9efaffffb2faffffc0faffff1afbffff98310000b433000066340000ec340000463500007e35000068360000dc360000163700007e370000c838000002390000a2390000
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: Canvas
+        m_OriginalName: Canvas
+>>>>>>> master
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
+<<<<<<< HEAD
         m_UserData: 24648
+=======
+        m_UserData: 13638
+>>>>>>> master
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
         m_OriginalEventType: 0
