@@ -1,0 +1,5 @@
+<<<<<<< HEAD:Library/StateCache/SceneView/f851a4-mainStage.json
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":74.31868743896485,"y":0.5986207127571106,"z":-8.235268592834473},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":66.17996978759766,"orthographic":true}
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":742.8853759765625,"y":355.35809326171877,"z":-28.75},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":853.365234375,"orthographic":true}
+>>>>>>> master:Library/StateCache/SceneView/c5a466-mainStage.json
