@@ -1447,13 +1447,13 @@ MonoBehaviour:
   currentScore: 0
   multiplier: 0
   notes: 0
-  filescore: 
+  filescore: 00000000000000000000000000000000
   score:
-  - 1
-  - 2
-  - 3
-  - 4
-  currentLevel: 0
+  - 0
+  - 0
+  - 0
+  - 0
+  currentLevel: 3
 --- !u!4 &1425534345
 Transform:
   m_ObjectHideFlags: 0

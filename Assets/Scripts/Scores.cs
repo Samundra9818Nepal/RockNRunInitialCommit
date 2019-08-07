@@ -19,10 +19,12 @@ public class Scores : MonoBehaviour
 
     public int currentLevel;
     string storeText;
-    
+
+    public delegate void ReadComplete();
+    public event ReadComplete OnRead;
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         multiplier = 1;
         Read();
@@ -55,7 +57,7 @@ public class Scores : MonoBehaviour
     {
         StreamWriter sw = new StreamWriter(paths);
 
-        //string storeText = currentScore.ToString();
+        
         for (int i = 0; i < 3; i++)
         {
             if (i == currentLevel)
@@ -64,11 +66,11 @@ public class Scores : MonoBehaviour
 
             }
             
-            storeText += (filescore[i].ToString() + ("/n"));
+            storeText += (filescore[i].ToString() + (','));
         }
 
         sw.WriteLine(storeText);
-
+        
         sw.Close();
     }
 
@@ -78,17 +80,20 @@ public class Scores : MonoBehaviour
         StreamReader reader = new StreamReader(path);
         string loadScore = reader.ReadLine();
        
-        string[] score = loadScore.Split("/n"[0]);
+        score = loadScore.Split(',');
+        Debug.Log(filescore.Length);
         
-        for (int i = 0; i < 3; i++)
+        for (int i = 0; i < score.Length; i++)
         {
             filescore [i] = int.Parse(score[i]);
+            
 
         }
        
         
         reader.Close();
 
+        OnRead?.Invoke();
     }
 
     public void CalScore()
