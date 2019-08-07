@@ -11,9 +11,8 @@ public class PlayerMOvement : MonoBehaviour
     public GameObject scoreBoi;
     public Transform footplace;
 
-   //public GameObject Badsound;//Badsound...
-    //AudioSource VolumeDown; // for making the badsound volume up.
-    //public GameObject CoinPickUpsound; // Weired Music........
+   
+    public GameObject CoinPickUpsound;
 
     public float Speed;
     public float JumpForce;
@@ -37,9 +36,8 @@ public class PlayerMOvement : MonoBehaviour
         RB = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         Refcol = GetComponent<CapsuleCollider2D>();// Refrencing the collider.
-     //VolumeDown = GetComponent<AudioSource>(); // for controlling the volume whenever player trip over.        
-    }
 
+    }
     //Moving player towards the concert gameobject position.
     public void FixedUpdate()
     {
@@ -112,9 +110,9 @@ public class PlayerMOvement : MonoBehaviour
             scoreBoi.GetComponent<Scores>().Notes();
 
 
-            // GameObject PickupSound = Instantiate(CoinPickUpsound, transform.position, transform.rotation);
-            // Destroy(PickupSound, 3f);
-            // Destroy(PickupSound, 3f);
+            GameObject PickupSound = Instantiate(CoinPickUpsound, transform.position, transform.rotation);
+            Destroy(PickupSound, 3f);
+            
 
         }
         // Player Trip over functions.

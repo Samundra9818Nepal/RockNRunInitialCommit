@@ -21774,9 +21774,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 632544116}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bf0bebcd413b114387069b48e0c2934, type: 3}
+  m_Script: {fileID: 11500000, guid: f5dabdd4a20c4c74ebe978c8d9234fb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fader: {fileID: 1598789456}
+  LeveltoLoad: WinningScreen
 --- !u!1 &633734698
 GameObject:
   m_ObjectHideFlags: 0
@@ -50215,6 +50217,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2fd8ea051adb3294488a7d16a1238046, type: 3}
+--- !u!114 &1598789456 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114967344336956262, guid: 2fd8ea051adb3294488a7d16a1238046,
+    type: 3}
+  m_PrefabInstance: {fileID: 1598784817}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0694780416733e14aa42322c90b5dd94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1607184465
 GameObject:
   m_ObjectHideFlags: 0
@@ -52278,6 +52292,8 @@ MonoBehaviour:
     type: 3}
   scoreBoi: {fileID: 1953252246}
   footplace: {fileID: 957616126}
+  CoinPickUpsound: {fileID: 2391831157951678932, guid: e0f3dbb8fc63d344eb23ffbedd92aea6,
+    type: 3}
   Speed: 7.5
   JumpForce: 25
   Screenflash: {fileID: 1797934703}
@@ -52372,7 +52388,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1652713030}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -173.64, y: 2.798, z: 0}
+  m_LocalPosition: {x: -178.64, y: 2.798, z: 0}
   m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
   m_Children:
   - {fileID: 957616126}
