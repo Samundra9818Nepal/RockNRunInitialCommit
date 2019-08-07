@@ -50,4 +50,34 @@ public class GamePause : MonoBehaviour
         Debug.Log("Game Quit");
         Application.Quit();
     }
+    //Restart button
+    public void EDM02Restart()
+    {
+        pauseMenuUI.SetActive(false);
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("EDM 2");
+        AudioListener.pause = false;
+    }
+    public void EDM01Restart()
+    {
+        pauseMenuUI.SetActive(false);
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("EDM 01");
+        AudioListener.pause = false;
+    }
+    public void Rock01Restart()
+    {
+        pauseMenuUI.SetActive(false);
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("Rock 1");
+        AudioListener.pause = false;
+    }
+    public void Rock02Restart()
+    {
+        pauseMenuUI.SetActive(false);
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("Rock 2");
+        AudioListener.pause = false;
+    }
+
 }
