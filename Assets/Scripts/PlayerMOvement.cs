@@ -8,13 +8,17 @@ public class PlayerMOvement : MonoBehaviour
 
     public GameObject ParticalPref; // Particle system.
     public GameObject Playerfoot; // sand effects.
+    public GameObject scoreBoi;
     public Transform footplace;
+
    //public GameObject Badsound;//Badsound...
     //AudioSource VolumeDown; // for making the badsound volume up.
     //public GameObject CoinPickUpsound; // Weired Music........
+
     public float Speed;
     public float JumpForce;
     public GameObject Screenflash;
+
     Animator anim;
     CapsuleCollider2D Refcol;
 
@@ -27,13 +31,13 @@ public class PlayerMOvement : MonoBehaviour
 
     public void Start()
     {
-        // Making sure that player is grounded.
+        //Making sure that player is grounded.
         IsGrounded = true;
         IsSliding = false;
         RB = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         Refcol = GetComponent<CapsuleCollider2D>();// Refrencing the collider.
-     //   VolumeDown = GetComponent<AudioSource>(); // for controlling the volume whenever player trip over.        
+     //VolumeDown = GetComponent<AudioSource>(); // for controlling the volume whenever player trip over.        
     }
 
     //Moving player towards the concert gameobject position.
@@ -102,9 +106,15 @@ public class PlayerMOvement : MonoBehaviour
             Destroy(collision.gameObject);
             GameObject Particles = Instantiate(ParticalPref, this.transform.position, this.transform.rotation);
             Destroy(Particles, 2f);
-           // GameObject PickupSound = Instantiate(CoinPickUpsound, transform.position, transform.rotation);
-           // Destroy(PickupSound, 3f);
-           // Destroy(PickupSound, 3f);
+            ScoreManager.currentNoteCount++;
+
+            scoreBoi.GetComponent<Scores>().CalScore();
+            scoreBoi.GetComponent<Scores>().Notes();
+
+
+            // GameObject PickupSound = Instantiate(CoinPickUpsound, transform.position, transform.rotation);
+            // Destroy(PickupSound, 3f);
+            // Destroy(PickupSound, 3f);
 
         }
         // Player Trip over functions.
@@ -112,11 +122,14 @@ public class PlayerMOvement : MonoBehaviour
         {
 
             //VolumeDown.volume = 0f;
+
             anim.SetBool("Player Tripover", true);
             Debug.Log("Player Tripover");
             Screenflash.SetActive(true);
-          //  GameObject Bad_sound = Instantiate(Badsound, transform.position, transform.rotation);
-           // Destroy(Bad_sound, 3f);
+            scoreBoi.GetComponent<Scores>().HitOb();
+
+            //GameObject Bad_sound = Instantiate(Badsound, transform.position, transform.rotation);
+           //Destroy(Bad_sound, 3f);
 
         }
 

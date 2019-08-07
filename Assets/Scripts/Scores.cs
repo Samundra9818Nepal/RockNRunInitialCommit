@@ -10,14 +10,14 @@ public class Scores : MonoBehaviour
 
     public int currentScore;
     public int multiplier;
-    public int notes;
+    public int notesInRow;
 
     public int [] filescore;
 
     public string[] score;
     string paths = "Assets/HighScores.txt";
 
-    public int currentLevel;
+    public int currentLevel; //go into each level and set this
     string storeText;
 
     public delegate void ReadComplete();
@@ -38,7 +38,7 @@ public class Scores : MonoBehaviour
 
     }
     // compares the saved score agianst the currentscore
-    void GetHighScore()
+    public void GetHighScore()
     {
         Read();
 
@@ -53,7 +53,7 @@ public class Scores : MonoBehaviour
 
     }
     // saves the current score into the text file
-    void NewHeighScore()
+    public void NewHeighScore()
     {
         StreamWriter sw = new StreamWriter(paths);
 
@@ -96,18 +96,20 @@ public class Scores : MonoBehaviour
         OnRead?.Invoke();
     }
 
+    //Calculate score
     public void CalScore()
     {
         currentScore = currentScore + (1 * multiplier);
     }
 
+    //Multiplier code function
     public void Notes()
     {
-        notes++;
-        if (notes % 4 == 0)
+        notesInRow++;
+        if (notesInRow % 4 == 0) //After every 4 notes are collected
         {
 
-            if (multiplier < 4)
+            if (multiplier < 4) //Max Multiplier 4
             {
                 multiplier++;
             }
@@ -118,6 +120,6 @@ public class Scores : MonoBehaviour
     public void HitOb()
     {
         multiplier = 1;
-        notes = 0;
+        notesInRow = 0;
     }
 }
