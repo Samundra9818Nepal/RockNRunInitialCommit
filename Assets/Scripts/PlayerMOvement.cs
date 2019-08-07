@@ -104,6 +104,7 @@ public class PlayerMOvement : MonoBehaviour
             Destroy(Particles, 2f);
            // GameObject PickupSound = Instantiate(CoinPickUpsound, transform.position, transform.rotation);
            // Destroy(PickupSound, 3f);
+           // Destroy(PickupSound, 3f);
 
         }
         // Player Trip over functions.
