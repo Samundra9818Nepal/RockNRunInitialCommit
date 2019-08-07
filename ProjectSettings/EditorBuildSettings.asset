@@ -42,9 +42,9 @@ EditorBuildSettings:
     path: Assets/Scenes/FinOptions.unity
     guid: a0ba03721d354744988c0d49ab43aecb
   - enabled: 1
+    path: Assets/Scenes/Fin Credits.unity
+    guid: 67c9c8ff161b7ec4ebfd84bb2099d269
+  - enabled: 1
     path: Assets/Scenes/Option.unity
     guid: 19b2f5690cf8e3a42af1b5c8196b21fc
-  - enabled: 1
-    path: Assets/Scenes/FinCredits.unity
-    guid: 87940c3c888018148a3b3705c8fc9d13
   m_configObjects: {}
