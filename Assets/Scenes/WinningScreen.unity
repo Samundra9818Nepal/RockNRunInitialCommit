@@ -5140,7 +5140,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -29, y: -36.33}
+  m_AnchoredPosition: {x: -11, y: -36.33}
   m_SizeDelta: {x: 741.27, y: 92.65}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &888906618
@@ -5267,7 +5267,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 391.3, y: -35.5}
+  m_AnchoredPosition: {x: 409.3, y: -35.5}
   m_SizeDelta: {x: 266.6, y: 49.99}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1056332613
@@ -5486,7 +5486,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -39, y: 41}
+  m_AnchoredPosition: {x: -39, y: 83}
   m_SizeDelta: {x: 588.2, y: 588.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1189527657
@@ -5502,7 +5502,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0.8680754, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -5511,10 +5511,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 8ae856f1759c92947914bd496aa914a3, type: 3}
-    m_FontSize: 71
-    m_FontStyle: 1
+    m_FontSize: 60
+    m_FontStyle: 3
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 6
     m_MaxSize: 79
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -5522,7 +5522,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Thanks for Playing
+  m_Text: "Thank you for Playing \n\nRock N' Run"
 --- !u!222 &1189527658
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6061,7 +6061,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 50
+      scalar: 100
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -10537,7 +10537,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2018365001}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 59.9, y: 0, z: 0}
+  m_LocalPosition: {x: 16, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

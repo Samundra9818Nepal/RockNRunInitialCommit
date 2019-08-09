@@ -6,10 +6,8 @@ using UnityEngine;
 public class PlayerMOvement : MonoBehaviour
 {
 
-    public GameObject ParticalPref; // Particle system.
-    public GameObject Playerfoot; // sand effects.
+    public GameObject ParticalPref;// Particle system.
     public GameObject scoreBoi;
-    public Transform footplace;
 
    
     public GameObject CoinPickUpsound;
@@ -53,25 +51,21 @@ public class PlayerMOvement : MonoBehaviour
         {
             if (IsGrounded)
             {
-
                 RB.velocity = new Vector2(RB.velocity.x, JumpForce);
                 // this.gameObject.GetComponent<Rigidbody2D>().AddForce(Vector2.up * JumpForce);
                 IsGrounded = false;
-
             }
             
         }
-        // this function is for sliding the player by pressing C.
+        //this function is for sliding the player by pressing C.
         if(Input.GetKeyDown("c") )
         {
             anim.SetBool("PlayerSliding", true);
             Refcol.size = new Vector2(Refcol.size.x, 7f);
             IsSliding = true;
-            
         } else if(Input.GetKeyUp("c"))
         {
             anim.SetBool("PlayerSliding", false);
-            //Slide.SetBool("PlayerReturn", true);
             IsSliding = false;
             Refcol.size = new Vector2(Refcol.size.x, 10f);
         }
@@ -86,9 +80,6 @@ public class PlayerMOvement : MonoBehaviour
         {
             IsGrounded = true;
             Debug.Log("IsGrounded");
-            GameObject Sand_effects = Instantiate(Playerfoot, footplace.transform.position, footplace.transform.rotation);
-            Destroy(Sand_effects,1f);
-
         }
 
     }
@@ -109,26 +100,16 @@ public class PlayerMOvement : MonoBehaviour
             scoreBoi.GetComponent<Scores>().CalScore();
             scoreBoi.GetComponent<Scores>().Notes();
 
-
-            GameObject PickupSound = Instantiate(CoinPickUpsound, transform.position, transform.rotation);
-            Destroy(PickupSound, 3f);
-            
-
+            GameObject pickUpSound = Instantiate(CoinPickUpsound, transform.position, transform.rotation);
+            Destroy(pickUpSound, 3f);
         }
         // Player Trip over functions.
         if (collision.gameObject.tag == "obstacles")
         {
-
-            //VolumeDown.volume = 0f;
-
             anim.SetBool("Player Tripover", true);
             Debug.Log("Player Tripover");
             Screenflash.SetActive(true);
             scoreBoi.GetComponent<Scores>().HitOb();
-
-            //GameObject Bad_sound = Instantiate(Badsound, transform.position, transform.rotation);
-           //Destroy(Bad_sound, 3f);
-
         }
 
     }
@@ -140,7 +121,6 @@ public class PlayerMOvement : MonoBehaviour
         anim.SetBool("Player Tripover", false);
         Debug.Log("Player Tripover");
         Screenflash.SetActive(false);
-       // VolumeDown.volume = 1f;
     }
     
 }
