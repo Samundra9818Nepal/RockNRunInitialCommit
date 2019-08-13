@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Scenes/Credits.unity
-=======
 - path: Assets/Scenes/LevelSelect.unity
->>>>>>> master
   isLoaded: 1
   isActive: 1
