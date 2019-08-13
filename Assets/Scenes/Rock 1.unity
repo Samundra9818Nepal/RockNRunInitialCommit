@@ -775,7 +775,7 @@ PrefabInstance:
         type: 3}
       propertyPath: footplace
       value: 
-      objectReference: {fileID: 2120960967}
+      objectReference: {fileID: 0}
     - target: {fileID: 2972483263240265812, guid: e162e8ce55142b440b2a3eaa9932b3ce,
         type: 3}
       propertyPath: scoreBoi
@@ -15109,7 +15109,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &963618029
 GameObject:
@@ -27989,7 +27989,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4313554781596324, guid: 2fd8ea051adb3294488a7d16a1238046, type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 4313554781596324, guid: 2fd8ea051adb3294488a7d16a1238046, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -33514,36 +33514,6 @@ Transform:
   m_Father: {fileID: 940116147}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 126.20801}
---- !u!1 &2120960966
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2120960967}
-  m_Layer: 0
-  m_Name: GameObject
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2120960967
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2120960966}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -117.37642, y: 10.594865, z: -6.1823826}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 11
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2124751446
 GameObject:
   m_ObjectHideFlags: 0
@@ -33576,6 +33546,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fader: {fileID: 1783997124}
   LeveltoLoad: Loading Screen 3
+  LevelToUnlock: 3
 --- !u!70 &2124751448
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
