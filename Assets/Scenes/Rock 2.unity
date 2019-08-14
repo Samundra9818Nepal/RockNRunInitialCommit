@@ -10473,6 +10473,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fader: {fileID: 1598789456}
   LeveltoLoad: WinningScreen
+  LevelToUnlock: 2
+  ScoreBoi: {fileID: 1953252246}
 --- !u!1 &646555753
 GameObject:
   m_ObjectHideFlags: 0
@@ -32296,7 +32298,7 @@ MonoBehaviour:
   - 
   - 
   - 
-  currentLevel: 2
+  currentLevel: 3
 --- !u!4 &1953252248
 Transform:
   m_ObjectHideFlags: 0

@@ -44,6 +44,7 @@ public class Scores : MonoBehaviour
 
         if (currentScore > filescore[currentLevel])
         {
+            Debug.Log("Write new high score");
             NewHeighScore();
 
             filescore[currentLevel] = currentScore;
@@ -56,18 +57,28 @@ public class Scores : MonoBehaviour
     public void NewHeighScore()
     {
         StreamWriter sw = new StreamWriter(paths);
-
+        storeText = "";
         
-        for (int i = 0; i < 3; i++)
+        for (int i = 0; i <= 3; i++)
         {
+            Debug.Log(i.ToString());
             if (i == currentLevel)
             {
-                filescore[currentLevel] = currentScore;
+                filescore[i] = currentScore;
+                
+            }
+            if (i == 3)
+            {
+                storeText += (filescore[i].ToString());
 
             }
+            else
+            {
+                storeText += (filescore[i].ToString() + (','));
+            }
             
-            storeText += (filescore[i].ToString() + (','));
         }
+        
 
         sw.WriteLine(storeText);
         
@@ -121,5 +132,14 @@ public class Scores : MonoBehaviour
     {
         multiplier = 1;
         notesInRow = 0;
+    }
+    public void Reset()
+    {
+        for (int i = 0; i <= 3; i++)
+        {
+            filescore[i] = 0;
+            NewHeighScore();
+        }
+
     }
 }

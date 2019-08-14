@@ -12289,6 +12289,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fader: {fileID: 1361620163}
   LeveltoLoad: Loading Screen 2
+  LevelToUnlock: 2
+  ScoreBoi: {fileID: 1499676490}
 --- !u!70 &596362265
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

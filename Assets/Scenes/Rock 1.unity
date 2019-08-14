@@ -743,6 +743,22 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5907832039978726030, guid: e162e8ce55142b440b2a3eaa9932b3ce,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 02051fddded4e544ebe62736233e7fff,
+        type: 3}
+    - target: {fileID: 5907832039978726030, guid: e162e8ce55142b440b2a3eaa9932b3ce,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 6.8199997
+      objectReference: {fileID: 0}
+    - target: {fileID: 5907832039978726030, guid: e162e8ce55142b440b2a3eaa9932b3ce,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2972483263240265812, guid: e162e8ce55142b440b2a3eaa9932b3ce,
         type: 3}
       propertyPath: ParticalPref
@@ -781,22 +797,6 @@ PrefabInstance:
       propertyPath: scoreBoi
       value: 
       objectReference: {fileID: 956365948}
-    - target: {fileID: 5907832039978726030, guid: e162e8ce55142b440b2a3eaa9932b3ce,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 02051fddded4e544ebe62736233e7fff,
-        type: 3}
-    - target: {fileID: 5907832039978726030, guid: e162e8ce55142b440b2a3eaa9932b3ce,
-        type: 3}
-      propertyPath: m_Size.x
-      value: 6.8199997
-      objectReference: {fileID: 0}
-    - target: {fileID: 5907832039978726030, guid: e162e8ce55142b440b2a3eaa9932b3ce,
-        type: 3}
-      propertyPath: m_WasSpriteAssigned
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e162e8ce55142b440b2a3eaa9932b3ce, type: 3}
 --- !u!1 &30326376
@@ -15096,7 +15096,7 @@ MonoBehaviour:
   - 
   - 
   - 
-  currentLevel: 0
+  currentLevel: 1
 --- !u!4 &956365950
 Transform:
   m_ObjectHideFlags: 0
@@ -33547,6 +33547,7 @@ MonoBehaviour:
   fader: {fileID: 1783997124}
   LeveltoLoad: Loading Screen 3
   LevelToUnlock: 3
+  ScoreBoi: {fileID: 956365948}
 --- !u!70 &2124751448
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

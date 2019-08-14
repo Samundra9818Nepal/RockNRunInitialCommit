@@ -12,6 +12,7 @@ public class LevelSelect : MonoBehaviour
     public string Level_3 = "String Name";
     public string Level_4 = "String Name";
     public string ResetScore = "0";
+    public GameObject scoreboi;
 
 
     public Button[] levelButtons;
@@ -86,7 +87,7 @@ public class LevelSelect : MonoBehaviour
     public void Reset()
     {
         PlayerPrefs.DeleteAll();
-       
+        scoreboi.GetComponent<Scores>().Reset();
 
 
 

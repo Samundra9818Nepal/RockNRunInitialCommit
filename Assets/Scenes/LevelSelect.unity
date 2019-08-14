@@ -2613,6 +2613,7 @@ MonoBehaviour:
   Level_3: Loading Screen 3
   Level_4: Loading Screen 4
   ResetScore: 0
+  scoreboi: {fileID: 1425534343}
   levelButtons:
   - {fileID: 1493933338}
   - {fileID: 742700596}
