@@ -15,7 +15,8 @@ public class Scores : MonoBehaviour
     public int [] filescore;
 
     public string[] score;
-    string paths = "Assets/HighScores.txt";
+    
+    string paths = Application.dataPath+("/HighScores.txt");
 
     public int currentLevel; //go into each level and set this
     string storeText;
@@ -26,6 +27,10 @@ public class Scores : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
+        if (!File.Exists(paths))
+        {
+            File.WriteAllText(paths, "0,0,0,0");
+        }
         multiplier = 1;
         Read();
         
