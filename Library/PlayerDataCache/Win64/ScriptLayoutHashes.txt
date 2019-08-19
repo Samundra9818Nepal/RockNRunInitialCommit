@@ -1,6 +1,6 @@
 Win64
 PlayerPath?
-C:/Users/ktiwari3/Desktop/RNR/Rock N' Roll.exe
+C:/Users/snepal2/Desktop/New folder/Rock N' Roll.exe
 SceneListBegin?
 Assets/Scenes/MainMenu.unity
 Assets/Scenes/Loading Screen 1.unity
