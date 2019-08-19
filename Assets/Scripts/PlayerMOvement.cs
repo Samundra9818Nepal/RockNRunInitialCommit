@@ -47,6 +47,7 @@ public class PlayerMOvement : MonoBehaviour
 
     public void Update()
     {
+
         if (Input.GetKeyDown(KeyCode.Space)&& !IsSliding)
         {
             if (IsGrounded)
@@ -122,6 +123,37 @@ public class PlayerMOvement : MonoBehaviour
         Debug.Log("Player Tripover");
         Screenflash.SetActive(false);
     }
-    
-}
+
+
+
+
+    // Mobile Controls
+
+    public void Jump()
+    {
+
+
+        if (IsGrounded && !IsSliding)
+        {
+            RB.velocity = new Vector2(RB.velocity.x, JumpForce);
+            // this.gameObject.GetComponent<Rigidbody2D>().AddForce(Vector2.up * JumpForce);
+            IsGrounded = false;
+        }
+    }
+
+    public void Slide()
+    {
+        anim.SetBool("PlayerSliding", true);
+        Refcol.size = new Vector2(Refcol.size.x, 7f);
+        IsSliding = true;
+    }
+    public void Slide2()
+    {
+        anim.SetBool("PlayerSliding", false);
+        Refcol.size = new Vector2(Refcol.size.x, 10f);
+        IsSliding = false;
+    }
+   
+    }
+
 
