@@ -23225,8 +23225,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   colorInitial: {r: 0, g: 0.7536626, b: 0.9607843, a: 1}
   color2: {r: 1, g: 0, b: 0.95848846, a: 1}
-  spriteRef: {fileID: 0}
+  spriteRef: {fileID: 1387085167}
   timeBet: 1
+--- !u!114 &1387085167 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 715214532011329243, guid: f3e8a48661142fb4086d83fb1226e0dd,
+    type: 3}
+  m_PrefabInstance: {fileID: 681007140}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1387085163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1387155584
 GameObject:
   m_ObjectHideFlags: 0
