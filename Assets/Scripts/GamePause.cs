@@ -10,6 +10,18 @@ public class GamePause : MonoBehaviour
     public GameObject pauseMenuUI;
 
     // Update is called once per frame
+
+
+        public void PauseMenuButton()
+    {
+        pauseMenuUI.SetActive(true);
+        Time.timeScale = 0f;
+        GameIsPaused = true;
+        AudioListener.pause = true;
+
+
+    }
+
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
@@ -43,7 +55,10 @@ public class GamePause : MonoBehaviour
     public void LoadMenu()
     {
         Time.timeScale = 1f;
+        AudioListener.pause = false;
         SceneManager.LoadScene("MainMenu");
+     
+
     }
     public void QuitGame()
     {

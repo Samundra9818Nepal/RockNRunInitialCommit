@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Loading Screen 1.unity
     guid: 1f0064ae36ecc8d45a002222272cb8cb
   - enabled: 1
-    path: Assets/Scenes/FinOptions.unity
+    path: Assets/Scenes/finOptions.unity
     guid: a0ba03721d354744988c0d49ab43aecb
   - enabled: 1
     path: Assets/Scenes/LevelSelect.unity

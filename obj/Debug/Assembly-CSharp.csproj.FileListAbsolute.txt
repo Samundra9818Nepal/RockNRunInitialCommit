@@ -284,3 +284,5 @@ C:\Users\snepal2\Desktop\RockNRunInitialCommit\obj\Debug\Assembly-CSharp.csproj.
 C:\Users\snepal2\Desktop\RockNRunInitialCommit\obj\Debug\Assembly-CSharp.csproj.CopyComplete
 C:\Users\snepal2\Desktop\RockNRunInitialCommit\obj\Debug\Assembly-CSharp.dll
 C:\Users\snepal2\Desktop\RockNRunInitialCommit\obj\Debug\Assembly-CSharp.pdb
+C:\Users\snepal2\Desktop\RockNRunInitialCommit\Temp\bin\Debug\UnityEngine.SpatialTrackingModule.dll
+C:\Users\snepal2\Desktop\RockNRunInitialCommit\Temp\bin\Debug\UnityEngine.SpatialTrackingModule.xml

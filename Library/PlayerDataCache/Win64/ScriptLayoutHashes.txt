@@ -1,10 +1,10 @@
 Win64
 PlayerPath?
-C:/Users/snepal2/Desktop/Rock N' Roll.exe
+C:/Users/snepal2/Desktop/Rock N' Run PC/Rock N' Run.exe
 SceneListBegin?
 Assets/Scenes/MainMenu.unity
 Assets/Scenes/Loading Screen 1.unity
-Assets/Scenes/FinOptions.unity
+Assets/Scenes/finOptions.unity
 Assets/Scenes/LevelSelect.unity
 Assets/Scenes/EDM 01.unity
 Assets/Scenes/Loading Screen 2.unity
