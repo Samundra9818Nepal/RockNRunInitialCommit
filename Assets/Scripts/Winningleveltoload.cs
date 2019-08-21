@@ -16,6 +16,7 @@ public class Winningleveltoload : MonoBehaviour
         
     if(collision.gameObject.tag == "Player")
         {
+
           ScoreBoi.GetComponent<Scores>().GetHighScore();
 
             PlayerPrefs.SetInt("levelReached", LevelToUnlock);
