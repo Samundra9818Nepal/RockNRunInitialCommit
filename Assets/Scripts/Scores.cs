@@ -16,7 +16,7 @@ public class Scores : MonoBehaviour
 
     public string[] score;
     
-    string paths = Application.dataPath + ("/HighScores.txt");
+    string paths = Application.persistentDataPath + ("/HighScores.txt");
 
     public int currentLevel; //go into each level and set this
     string storeText;
